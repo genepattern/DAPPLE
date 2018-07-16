@@ -1,13 +1,15 @@
 #DAPPLE
-#Thu Mar 17 14:52:24 EDT 2016
+#Fri Jul 06 16:13:35 EDT 2018
 JVMLevel=
-LSID=urn\:lsid\:8080.gpbroad.broadinstitute.org\:genepatternmodules\:479\:0.16
+LSID=urn\:lsid\:8080.gpbroad.broadinstitute.org\:genepatternmodules\:479\:0.17
 author=Lizzy Rossin
 categories=beta;Proteomics;Statistical Methods
 commandLine=<run-with-env> -u Python-2.6 -u R-3.1 python /web/wwwprod/htdocs/mpg/dapple/NewCode/BuildNetwork_slowTMP.py <Input.File> keyword\=<Keyword> permute\=<Permute.Length> plot\=<Plot> genome\=<genome.build> nearestgene\=<nearest.gene>
 cpuType=any
 description=DAPPLE
 fileFormat=
+job.error_status.exit_value=true
+job.error_status.stderr=false
 language=any
 name=DAPPLE
 os=any
@@ -95,4 +97,4 @@ quality=production
 taskDoc=README.pdf
 taskType=beta
 userid=rossin
-version=added example file
+version=changed job status error handling, ignore stderr.txt
