@@ -1,0 +1,1199 @@
+Sender: LSF System <lsf@node1080>
+Subject: Job 7407232: <test_1> Exited
+
+Job <test_1> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <2*node1080>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:24:43 2013
+Results reported at Fri Nov 29 14:24:47 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py config 1
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time   :      0.33 sec.
+    Max Memory :         3 MB
+    Max Swap   :        39 MB
+
+    Max Processes  :         1
+    Max Threads    :         1
+
+The output (if any) follows:
+
+Traceback (most recent call last):
+  File "/web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py", line 7, in <module>
+    permute=int(inputsFile[2].strip("\n"))
+ValueError: invalid literal for int() with base 10: 'false'
+Sender: LSF System <lsf@node1753>
+Subject: Job 7407234: <test_2> Exited
+
+Job <test_2> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <2*node1753>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:25:00 2013
+Results reported at Fri Nov 29 14:25:01 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py config 2
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time   :      0.14 sec.
+    Max Memory :         6 MB
+    Max Swap   :        43 MB
+
+    Max Processes  :         1
+    Max Threads    :         1
+
+The output (if any) follows:
+
+Traceback (most recent call last):
+  File "/web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py", line 7, in <module>
+    permute=int(inputsFile[2].strip("\n"))
+ValueError: invalid literal for int() with base 10: 'false'
+Sender: LSF System <lsf@node1414>
+Subject: Job 7407236: <test_4> Exited
+
+Job <test_4> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <1*node1414>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+                            <1*node1444>
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:25:00 2013
+Results reported at Fri Nov 29 14:25:01 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py config 4
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time   :      0.37 sec.
+    Max Memory :         4 MB
+    Max Swap   :        41 MB
+
+    Max Processes  :         1
+    Max Threads    :         1
+
+The output (if any) follows:
+
+Traceback (most recent call last):
+  File "/web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py", line 7, in <module>
+    permute=int(inputsFile[2].strip("\n"))
+ValueError: invalid literal for int() with base 10: 'false'
+Sender: LSF System <lsf@node1442>
+Subject: Job 7407235: <test_3> Exited
+
+Job <test_3> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <1*node1442>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+                            <1*node1437>
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:25:00 2013
+Results reported at Fri Nov 29 14:25:01 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py config 3
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time   :      0.39 sec.
+    Max Memory :         4 MB
+    Max Swap   :        40 MB
+
+    Max Processes  :         1
+    Max Threads    :         1
+
+The output (if any) follows:
+
+Traceback (most recent call last):
+  File "/web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py", line 7, in <module>
+    permute=int(inputsFile[2].strip("\n"))
+ValueError: invalid literal for int() with base 10: 'false'
+Sender: LSF System <lsf@node1137>
+Subject: Job 7407237: <test_5> Exited
+
+Job <test_5> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <1*node1137>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+                            <1*node1019>
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:25:00 2013
+Results reported at Fri Nov 29 14:25:02 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py config 5
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time   :      0.33 sec.
+    Max Memory :         3 MB
+    Max Swap   :        39 MB
+
+    Max Processes  :         1
+    Max Threads    :         1
+
+The output (if any) follows:
+
+Traceback (most recent call last):
+  File "/web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py", line 7, in <module>
+    permute=int(inputsFile[2].strip("\n"))
+ValueError: invalid literal for int() with base 10: 'false'
+Sender: LSF System <lsf@node1093>
+Subject: Job 7407238: <test_merge> Exited
+
+Job <test_merge> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <1*node1093>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+                            <1*node1102>
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:25:06 2013
+Results reported at Fri Nov 29 14:25:07 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/mer
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time   :      0.33 sec.
+    Max Memory :         3 MB
+    Max Swap   :        39 MB
+
+    Max Processes  :         1
+    Max Threads    :         1
+
+The output (if any) follows:
+
+python: can't open file '/web/wwwprod/htdocs/mpg/dapple/NewCode/mer': [Errno 2] No such file or directory
+Sender: LSF System <lsf@node1068>
+Subject: Job 7407240: <test_merge> Exited
+
+Job <test_merge> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <1*node1068>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+                            <1*node1091>
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:25:22 2013
+Results reported at Fri Nov 29 14:25:24 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/mergeResults.py config
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time   :      0.34 sec.
+    Max Memory :         3 MB
+    Max Swap   :        40 MB
+
+    Max Processes  :         1
+    Max Threads    :         1
+
+The output (if any) follows:
+
+Traceback (most recent call last):
+  File "/web/wwwprod/htdocs/mpg/dapple/NewCode/mergeResults.py", line 7, in <module>
+    permute=int(inputsFile[2].strip("\n"))
+ValueError: invalid literal for int() with base 10: 'false'
+Sender: LSF System <lsf@node1442>
+Subject: Job 7407251: <test_1> Done
+
+Job <test_1> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <1*node1442>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+                            <1*node1437>
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:26:57 2013
+Results reported at Fri Nov 29 14:27:03 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py config 1
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :      3.31 sec.
+    Max Memory :         4 MB
+    Max Swap   :        40 MB
+
+    Max Processes  :         1
+    Max Threads    :         1
+
+The output (if any) follows:
+
+Traceback (most recent call last):
+  File "/web/wwwprod/htdocs/mpg/dapple/NewCode/BuildNetwork_slowTMP.py", line 34, in <module>
+    permutlength = int(argv.split("=")[1])
+ValueError: invalid literal for int() with base 10: '10.0'
+Sender: LSF System <lsf@node1414>
+Subject: Job 7407252: <test_2> Done
+
+Job <test_2> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <1*node1414>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+                            <1*node1068>
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:26:57 2013
+Results reported at Fri Nov 29 14:27:03 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py config 2
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :      3.46 sec.
+    Max Memory :         4 MB
+    Max Swap   :        41 MB
+
+    Max Processes  :         1
+    Max Threads    :         1
+
+The output (if any) follows:
+
+Traceback (most recent call last):
+  File "/web/wwwprod/htdocs/mpg/dapple/NewCode/BuildNetwork_slowTMP.py", line 34, in <module>
+    permutlength = int(argv.split("=")[1])
+ValueError: invalid literal for int() with base 10: '10.0'
+Sender: LSF System <lsf@node1097>
+Subject: Job 7407255: <test_5> Done
+
+Job <test_5> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <1*node1097>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+                            <1*node1632>
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:26:57 2013
+Results reported at Fri Nov 29 14:27:04 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py config 5
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :      3.28 sec.
+    Max Memory :         3 MB
+    Max Swap   :        39 MB
+
+    Max Processes  :         1
+    Max Threads    :         1
+
+The output (if any) follows:
+
+Traceback (most recent call last):
+  File "/web/wwwprod/htdocs/mpg/dapple/NewCode/BuildNetwork_slowTMP.py", line 34, in <module>
+    permutlength = int(argv.split("=")[1])
+ValueError: invalid literal for int() with base 10: '10.0'
+Sender: LSF System <lsf@node1102>
+Subject: Job 7407254: <test_4> Done
+
+Job <test_4> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <1*node1102>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+                            <1*node1091>
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:26:57 2013
+Results reported at Fri Nov 29 14:27:04 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py config 4
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :      3.22 sec.
+    Max Memory :         3 MB
+    Max Swap   :        39 MB
+
+    Max Processes  :         1
+    Max Threads    :         1
+
+The output (if any) follows:
+
+Traceback (most recent call last):
+  File "/web/wwwprod/htdocs/mpg/dapple/NewCode/BuildNetwork_slowTMP.py", line 34, in <module>
+    permutlength = int(argv.split("=")[1])
+ValueError: invalid literal for int() with base 10: '10.0'
+Sender: LSF System <lsf@node1146>
+Subject: Job 7407253: <test_3> Done
+
+Job <test_3> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <1*node1146>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+                            <1*node1444>
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:26:57 2013
+Results reported at Fri Nov 29 14:27:05 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py config 3
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :      3.34 sec.
+    Max Memory :         3 MB
+    Max Swap   :        39 MB
+
+    Max Processes  :         1
+    Max Threads    :         1
+
+The output (if any) follows:
+
+Traceback (most recent call last):
+  File "/web/wwwprod/htdocs/mpg/dapple/NewCode/BuildNetwork_slowTMP.py", line 34, in <module>
+    permutlength = int(argv.split("=")[1])
+ValueError: invalid literal for int() with base 10: '10.0'
+Sender: LSF System <lsf@node1097>
+Subject: Job 7407285: <test_4> Done
+
+Job <test_4> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <1*node1097>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+                            <1*node1632>
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:29:38 2013
+Results reported at Fri Nov 29 14:30:26 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py config 4
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :     43.58 sec.
+    Max Memory :       160 MB
+    Max Swap   :       292 MB
+
+    Max Processes  :         4
+    Max Threads    :         5
+
+The output (if any) follows:
+
+Input is a list of snps. Converting snps to genes...
+{0: ['PANK4', 'TNFRSF14', 'HES5', 'MMEL1', 'PADI4', 'HIPK1', 'MAGI3', 'PTPN22', 'RSBN1', 'AP4B1', 'DCLRE1B', 'CD2', 'FCRL3', 'CD5L', 'SLAMF7', 'ITLN1', 'CD244', 'LY9', 'FCGR2B', 'FCGR2A', 'HSPA6', 'FCGR3A', 'FCGR3B', 'FCRLA', 'DUSP12', 'PTPRC', 'REL', 'AFF3', 'LONRF2', 'NMS', 'STAT4', 'NAB1', 'GLS', 'STAT1', 'RAPH1', 'CD28', 'CTLA4', 'ICOS', 'KIAA1109', 'IL2', 'IL21', 'GPSM3', 'NOTCH4', 'PBX2', 'HLA-DRB5', 'HLA-DRA', 'HLA-DRB1', 'HLA-DQB1', 'HLA-DQA1', 'HLA-DQA2', 'ATG5', 'PRDM1', 'TNFAIP3', 'TAGAP', 'BLK', 'CCL19', 'IL11RA', 'CCL21', 'CCL27', 'C5', 'PSMD5', 'TRAF1', 'RAB14', 'FBXO18', 'IL15RA', 'IL2RA', 'RBM17', 'RAG1', 'TRAF6', 'RAG2', 'XRCC6BP1', 'AVIL', 'DCTN2', 'MBD6', 'ARHGAP9', 'INHBC', 'MARS', 'GLI1', 'DDIT3', 'INHBE', 'PIP4K2C', 'KIF5A', 'SLC26A10', 'DTX3', 'OS9', 'METTL1', 'TSFM', 'AGAP2', 'CDK4', 'CTDSP2', 'SLC12A5', 'NCOA5', 'MMP9', 'CD40', 'IL2RB', 'TMPRSS6', 'SSTR3'], 1: ['rs3890745', 'rs3890745', 'rs3890745', 'rs3890745', 'rs2240340', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs11586238', 'rs7528684', 'rs7528684', 'rs3766379', 'rs3766379', 'rs3766379', 'rs3766379', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs10919563', 'rs13031237', 'rs10865035', 'rs10865035', 'rs10865035', 'rs7574865', 'rs7574865', 'rs7574865', 'rs7574865', 'rs1980422', 'rs1980422', 'rs1980422', 'rs3087243', 'rs6822844', 'rs6822844', 'rs6822844', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs548234', 'rs548234', 'rs5029937', 'rs394581', 'rs2736340', 'rs2812378', 'rs2812378', 'rs2812378', 'rs2812378', 'rs3761847', 'rs3761847', 'rs3761847', 'rs3761847', 'rs2104286', 'rs2104286', 'rs2104286', 'rs2104286', 'rs540386', 'rs540386', 'rs540386', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs4810485', 'rs4810485', 'rs4810485', 'rs4810485', 'rs3218253', 'rs3218253', 'rs3218253']}
+[10635, 22737, 20675, 7905, 3232, 8552, 629, 10394, 11619, 4327, 9296, 5792, 6383, 346, 16967, 7091, 20496, 5623, 4687, 12190, 16585, 6560, 14690, 186, 18084, 16183, 7370, 3470, 1974, 1412, 14283, 12215, 5988, 8547, 18495, 20330, 11225, 7344, 11356, 16886, 2644, 7376, 8495, 11299, 22744, 22595, 3268, 6370, 21223, 7319, 2859, 14525, 3956, 16205, 21151, 782, 3913, 15340, 1158, 6170, 6918, 17165, 18086, 5738, 6595, 12001, 835, 3753, 2784, 17861, 702, 4257, 11499, 12679, 15595, 8559, 19344, 9126, 12645, 19486, 14956, 5404, 12860, 15270, 16306, 18780, 8530, 5093, 8239, 4443, 7587, 10028, 5518, 1413, 18223, 14679, 12588]
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+Building disease network...
+FCGR2B -- BLK
+IL21 -- IL2RA
+IL21 -- IL2RB
+IL21 -- IL11RA
+IL21 -- IL15RA
+PIP4K2C -- HIPK1
+BLK -- FCGR2A
+DUSP12 -- MBD6
+HSPA6 -- REL
+TNFRSF14 -- TRAF1
+TRAF6 -- CD40
+TRAF6 -- MARS
+TRAF6 -- TNFAIP3
+TRAF1 -- CD40
+TRAF1 -- TNFAIP3
+IL2RB -- IL2RA
+IL2RB -- IL2
+IL2RB -- IL15RA
+IL2RB -- STAT1
+PTPRC -- FCGR3B
+PTPRC -- CD28
+PTPRC -- CD2
+PTPRC -- FCGR3A
+IL2RA -- IL2
+IL11RA -- IL2
+STAT1 -- CD40
+IL15RA -- IL2
+There were 27 direct interactions in total.
+Number of disease proteins in direct network: 27.0
+Mean associated protein direct connectivity: 2.0
+Mean associated protein indirect connectivity: 27.725
+Mean CI connectivity: 2.92786069652
+Building 10 permuted networks...
+0% complete...
+90% complete...
+Summarizing results...
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+You chose not to iterate. Ending here.
+Sender: LSF System <lsf@node1102>
+Subject: Job 7407284: <test_3> Done
+
+Job <test_3> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <1*node1102>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+                            <1*node1091>
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:29:38 2013
+Results reported at Fri Nov 29 14:30:29 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py config 3
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :     45.26 sec.
+    Max Memory :       160 MB
+    Max Swap   :       292 MB
+
+    Max Processes  :         4
+    Max Threads    :         5
+
+The output (if any) follows:
+
+Input is a list of snps. Converting snps to genes...
+{0: ['PANK4', 'TNFRSF14', 'HES5', 'MMEL1', 'PADI4', 'HIPK1', 'MAGI3', 'PTPN22', 'RSBN1', 'AP4B1', 'DCLRE1B', 'CD2', 'FCRL3', 'CD5L', 'SLAMF7', 'ITLN1', 'CD244', 'LY9', 'FCGR2B', 'FCGR2A', 'HSPA6', 'FCGR3A', 'FCGR3B', 'FCRLA', 'DUSP12', 'PTPRC', 'REL', 'AFF3', 'LONRF2', 'NMS', 'STAT4', 'NAB1', 'GLS', 'STAT1', 'RAPH1', 'CD28', 'CTLA4', 'ICOS', 'KIAA1109', 'IL2', 'IL21', 'GPSM3', 'NOTCH4', 'PBX2', 'HLA-DRB5', 'HLA-DRA', 'HLA-DRB1', 'HLA-DQB1', 'HLA-DQA1', 'HLA-DQA2', 'ATG5', 'PRDM1', 'TNFAIP3', 'TAGAP', 'BLK', 'CCL19', 'IL11RA', 'CCL21', 'CCL27', 'C5', 'PSMD5', 'TRAF1', 'RAB14', 'FBXO18', 'IL15RA', 'IL2RA', 'RBM17', 'RAG1', 'TRAF6', 'RAG2', 'XRCC6BP1', 'AVIL', 'DCTN2', 'MBD6', 'ARHGAP9', 'INHBC', 'MARS', 'GLI1', 'DDIT3', 'INHBE', 'PIP4K2C', 'KIF5A', 'SLC26A10', 'DTX3', 'OS9', 'METTL1', 'TSFM', 'AGAP2', 'CDK4', 'CTDSP2', 'SLC12A5', 'NCOA5', 'MMP9', 'CD40', 'IL2RB', 'TMPRSS6', 'SSTR3'], 1: ['rs3890745', 'rs3890745', 'rs3890745', 'rs3890745', 'rs2240340', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs11586238', 'rs7528684', 'rs7528684', 'rs3766379', 'rs3766379', 'rs3766379', 'rs3766379', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs10919563', 'rs13031237', 'rs10865035', 'rs10865035', 'rs10865035', 'rs7574865', 'rs7574865', 'rs7574865', 'rs7574865', 'rs1980422', 'rs1980422', 'rs1980422', 'rs3087243', 'rs6822844', 'rs6822844', 'rs6822844', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs548234', 'rs548234', 'rs5029937', 'rs394581', 'rs2736340', 'rs2812378', 'rs2812378', 'rs2812378', 'rs2812378', 'rs3761847', 'rs3761847', 'rs3761847', 'rs3761847', 'rs2104286', 'rs2104286', 'rs2104286', 'rs2104286', 'rs540386', 'rs540386', 'rs540386', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs4810485', 'rs4810485', 'rs4810485', 'rs4810485', 'rs3218253', 'rs3218253', 'rs3218253']}
+[10635, 22737, 20675, 7905, 3232, 8552, 629, 10394, 11619, 4327, 9296, 5792, 6383, 346, 16967, 7091, 20496, 5623, 4687, 12190, 16585, 6560, 14690, 186, 18084, 16183, 7370, 3470, 1974, 1412, 14283, 12215, 5988, 8547, 18495, 20330, 11225, 7344, 11356, 16886, 2644, 7376, 8495, 11299, 22744, 22595, 3268, 6370, 21223, 7319, 2859, 14525, 3956, 16205, 21151, 782, 3913, 15340, 1158, 6170, 6918, 17165, 18086, 5738, 6595, 12001, 835, 3753, 2784, 17861, 702, 4257, 11499, 12679, 15595, 8559, 19344, 9126, 12645, 19486, 14956, 5404, 12860, 15270, 16306, 18780, 8530, 5093, 8239, 4443, 7587, 10028, 5518, 1413, 18223, 14679, 12588]
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+Building disease network...
+FCGR2B -- BLK
+IL21 -- IL2RA
+IL21 -- IL2RB
+IL21 -- IL11RA
+IL21 -- IL15RA
+PIP4K2C -- HIPK1
+BLK -- FCGR2A
+DUSP12 -- MBD6
+HSPA6 -- REL
+TNFRSF14 -- TRAF1
+TRAF6 -- CD40
+TRAF6 -- MARS
+TRAF6 -- TNFAIP3
+TRAF1 -- CD40
+TRAF1 -- TNFAIP3
+IL2RB -- IL2RA
+IL2RB -- IL2
+IL2RB -- IL15RA
+IL2RB -- STAT1
+PTPRC -- FCGR3B
+PTPRC -- CD28
+PTPRC -- CD2
+PTPRC -- FCGR3A
+IL2RA -- IL2
+IL11RA -- IL2
+STAT1 -- CD40
+IL15RA -- IL2
+There were 27 direct interactions in total.
+Number of disease proteins in direct network: 27.0
+Mean associated protein direct connectivity: 2.0
+Mean associated protein indirect connectivity: 27.725
+Mean CI connectivity: 2.92786069652
+Building 10 permuted networks...
+0% complete...
+90% complete...
+Summarizing results...
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+You chose not to iterate. Ending here.
+Sender: LSF System <lsf@node1438>
+Subject: Job 7407286: <test_5> Done
+
+Job <test_5> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <1*node1438>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+                            <1*node1136>
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:29:38 2013
+Results reported at Fri Nov 29 14:30:31 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py config 5
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :     47.79 sec.
+    Max Memory :       160 MB
+    Max Swap   :       292 MB
+
+    Max Processes  :         4
+    Max Threads    :         5
+
+The output (if any) follows:
+
+Input is a list of snps. Converting snps to genes...
+{0: ['PANK4', 'TNFRSF14', 'HES5', 'MMEL1', 'PADI4', 'HIPK1', 'MAGI3', 'PTPN22', 'RSBN1', 'AP4B1', 'DCLRE1B', 'CD2', 'FCRL3', 'CD5L', 'SLAMF7', 'ITLN1', 'CD244', 'LY9', 'FCGR2B', 'FCGR2A', 'HSPA6', 'FCGR3A', 'FCGR3B', 'FCRLA', 'DUSP12', 'PTPRC', 'REL', 'AFF3', 'LONRF2', 'NMS', 'STAT4', 'NAB1', 'GLS', 'STAT1', 'RAPH1', 'CD28', 'CTLA4', 'ICOS', 'KIAA1109', 'IL2', 'IL21', 'GPSM3', 'NOTCH4', 'PBX2', 'HLA-DRB5', 'HLA-DRA', 'HLA-DRB1', 'HLA-DQB1', 'HLA-DQA1', 'HLA-DQA2', 'ATG5', 'PRDM1', 'TNFAIP3', 'TAGAP', 'BLK', 'CCL19', 'IL11RA', 'CCL21', 'CCL27', 'C5', 'PSMD5', 'TRAF1', 'RAB14', 'FBXO18', 'IL15RA', 'IL2RA', 'RBM17', 'RAG1', 'TRAF6', 'RAG2', 'XRCC6BP1', 'AVIL', 'DCTN2', 'MBD6', 'ARHGAP9', 'INHBC', 'MARS', 'GLI1', 'DDIT3', 'INHBE', 'PIP4K2C', 'KIF5A', 'SLC26A10', 'DTX3', 'OS9', 'METTL1', 'TSFM', 'AGAP2', 'CDK4', 'CTDSP2', 'SLC12A5', 'NCOA5', 'MMP9', 'CD40', 'IL2RB', 'TMPRSS6', 'SSTR3'], 1: ['rs3890745', 'rs3890745', 'rs3890745', 'rs3890745', 'rs2240340', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs11586238', 'rs7528684', 'rs7528684', 'rs3766379', 'rs3766379', 'rs3766379', 'rs3766379', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs10919563', 'rs13031237', 'rs10865035', 'rs10865035', 'rs10865035', 'rs7574865', 'rs7574865', 'rs7574865', 'rs7574865', 'rs1980422', 'rs1980422', 'rs1980422', 'rs3087243', 'rs6822844', 'rs6822844', 'rs6822844', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs548234', 'rs548234', 'rs5029937', 'rs394581', 'rs2736340', 'rs2812378', 'rs2812378', 'rs2812378', 'rs2812378', 'rs3761847', 'rs3761847', 'rs3761847', 'rs3761847', 'rs2104286', 'rs2104286', 'rs2104286', 'rs2104286', 'rs540386', 'rs540386', 'rs540386', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs4810485', 'rs4810485', 'rs4810485', 'rs4810485', 'rs3218253', 'rs3218253', 'rs3218253']}
+[10635, 22737, 20675, 7905, 3232, 8552, 629, 10394, 11619, 4327, 9296, 5792, 6383, 346, 16967, 7091, 20496, 5623, 4687, 12190, 16585, 6560, 14690, 186, 18084, 16183, 7370, 3470, 1974, 1412, 14283, 12215, 5988, 8547, 18495, 20330, 11225, 7344, 11356, 16886, 2644, 7376, 8495, 11299, 22744, 22595, 3268, 6370, 21223, 7319, 2859, 14525, 3956, 16205, 21151, 782, 3913, 15340, 1158, 6170, 6918, 17165, 18086, 5738, 6595, 12001, 835, 3753, 2784, 17861, 702, 4257, 11499, 12679, 15595, 8559, 19344, 9126, 12645, 19486, 14956, 5404, 12860, 15270, 16306, 18780, 8530, 5093, 8239, 4443, 7587, 10028, 5518, 1413, 18223, 14679, 12588]
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+Building disease network...
+FCGR2B -- BLK
+IL21 -- IL2RA
+IL21 -- IL2RB
+IL21 -- IL11RA
+IL21 -- IL15RA
+PIP4K2C -- HIPK1
+BLK -- FCGR2A
+DUSP12 -- MBD6
+HSPA6 -- REL
+TNFRSF14 -- TRAF1
+TRAF6 -- CD40
+TRAF6 -- MARS
+TRAF6 -- TNFAIP3
+TRAF1 -- CD40
+TRAF1 -- TNFAIP3
+IL2RB -- IL2RA
+IL2RB -- IL2
+IL2RB -- IL15RA
+IL2RB -- STAT1
+PTPRC -- FCGR3B
+PTPRC -- CD28
+PTPRC -- CD2
+PTPRC -- FCGR3A
+IL2RA -- IL2
+IL11RA -- IL2
+STAT1 -- CD40
+IL15RA -- IL2
+There were 27 direct interactions in total.
+Number of disease proteins in direct network: 27.0
+Mean associated protein direct connectivity: 2.0
+Mean associated protein indirect connectivity: 27.725
+Mean CI connectivity: 2.92786069652
+Building 10 permuted networks...
+0% complete...
+90% complete...
+Summarizing results...
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+You chose not to iterate. Ending here.
+Sender: LSF System <lsf@node1021>
+Subject: Job 7407283: <test_2> Done
+
+Job <test_2> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <1*node1021>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+                            <1*node1437>
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:29:38 2013
+Results reported at Fri Nov 29 14:30:34 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py config 2
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :     47.61 sec.
+    Max Memory :       160 MB
+    Max Swap   :       292 MB
+
+    Max Processes  :         4
+    Max Threads    :         5
+
+The output (if any) follows:
+
+Input is a list of snps. Converting snps to genes...
+{0: ['PANK4', 'TNFRSF14', 'HES5', 'MMEL1', 'PADI4', 'HIPK1', 'MAGI3', 'PTPN22', 'RSBN1', 'AP4B1', 'DCLRE1B', 'CD2', 'FCRL3', 'CD5L', 'SLAMF7', 'ITLN1', 'CD244', 'LY9', 'FCGR2B', 'FCGR2A', 'HSPA6', 'FCGR3A', 'FCGR3B', 'FCRLA', 'DUSP12', 'PTPRC', 'REL', 'AFF3', 'LONRF2', 'NMS', 'STAT4', 'NAB1', 'GLS', 'STAT1', 'RAPH1', 'CD28', 'CTLA4', 'ICOS', 'KIAA1109', 'IL2', 'IL21', 'GPSM3', 'NOTCH4', 'PBX2', 'HLA-DRB5', 'HLA-DRA', 'HLA-DRB1', 'HLA-DQB1', 'HLA-DQA1', 'HLA-DQA2', 'ATG5', 'PRDM1', 'TNFAIP3', 'TAGAP', 'BLK', 'CCL19', 'IL11RA', 'CCL21', 'CCL27', 'C5', 'PSMD5', 'TRAF1', 'RAB14', 'FBXO18', 'IL15RA', 'IL2RA', 'RBM17', 'RAG1', 'TRAF6', 'RAG2', 'XRCC6BP1', 'AVIL', 'DCTN2', 'MBD6', 'ARHGAP9', 'INHBC', 'MARS', 'GLI1', 'DDIT3', 'INHBE', 'PIP4K2C', 'KIF5A', 'SLC26A10', 'DTX3', 'OS9', 'METTL1', 'TSFM', 'AGAP2', 'CDK4', 'CTDSP2', 'SLC12A5', 'NCOA5', 'MMP9', 'CD40', 'IL2RB', 'TMPRSS6', 'SSTR3'], 1: ['rs3890745', 'rs3890745', 'rs3890745', 'rs3890745', 'rs2240340', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs11586238', 'rs7528684', 'rs7528684', 'rs3766379', 'rs3766379', 'rs3766379', 'rs3766379', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs10919563', 'rs13031237', 'rs10865035', 'rs10865035', 'rs10865035', 'rs7574865', 'rs7574865', 'rs7574865', 'rs7574865', 'rs1980422', 'rs1980422', 'rs1980422', 'rs3087243', 'rs6822844', 'rs6822844', 'rs6822844', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs548234', 'rs548234', 'rs5029937', 'rs394581', 'rs2736340', 'rs2812378', 'rs2812378', 'rs2812378', 'rs2812378', 'rs3761847', 'rs3761847', 'rs3761847', 'rs3761847', 'rs2104286', 'rs2104286', 'rs2104286', 'rs2104286', 'rs540386', 'rs540386', 'rs540386', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs4810485', 'rs4810485', 'rs4810485', 'rs4810485', 'rs3218253', 'rs3218253', 'rs3218253']}
+[10635, 22737, 20675, 7905, 3232, 8552, 629, 10394, 11619, 4327, 9296, 5792, 6383, 346, 16967, 7091, 20496, 5623, 4687, 12190, 16585, 6560, 14690, 186, 18084, 16183, 7370, 3470, 1974, 1412, 14283, 12215, 5988, 8547, 18495, 20330, 11225, 7344, 11356, 16886, 2644, 7376, 8495, 11299, 22744, 22595, 3268, 6370, 21223, 7319, 2859, 14525, 3956, 16205, 21151, 782, 3913, 15340, 1158, 6170, 6918, 17165, 18086, 5738, 6595, 12001, 835, 3753, 2784, 17861, 702, 4257, 11499, 12679, 15595, 8559, 19344, 9126, 12645, 19486, 14956, 5404, 12860, 15270, 16306, 18780, 8530, 5093, 8239, 4443, 7587, 10028, 5518, 1413, 18223, 14679, 12588]
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+Building disease network...
+FCGR2B -- BLK
+IL21 -- IL2RA
+IL21 -- IL2RB
+IL21 -- IL11RA
+IL21 -- IL15RA
+PIP4K2C -- HIPK1
+BLK -- FCGR2A
+DUSP12 -- MBD6
+HSPA6 -- REL
+TNFRSF14 -- TRAF1
+TRAF6 -- CD40
+TRAF6 -- MARS
+TRAF6 -- TNFAIP3
+TRAF1 -- CD40
+TRAF1 -- TNFAIP3
+IL2RB -- IL2RA
+IL2RB -- IL2
+IL2RB -- IL15RA
+IL2RB -- STAT1
+PTPRC -- FCGR3B
+PTPRC -- CD28
+PTPRC -- CD2
+PTPRC -- FCGR3A
+IL2RA -- IL2
+IL11RA -- IL2
+STAT1 -- CD40
+IL15RA -- IL2
+There were 27 direct interactions in total.
+Number of disease proteins in direct network: 27.0
+Mean associated protein direct connectivity: 2.0
+Mean associated protein indirect connectivity: 27.725
+Mean CI connectivity: 2.92786069652
+Building 10 permuted networks...
+0% complete...
+90% complete...
+Summarizing results...
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+You chose not to iterate. Ending here.
+Sender: LSF System <lsf@node1068>
+Subject: Job 7407282: <test_1> Done
+
+Job <test_1> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <1*node1068>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+                            <1*node1414>
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:29:38 2013
+Results reported at Fri Nov 29 14:30:43 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py config 1
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :     45.95 sec.
+    Max Memory :       160 MB
+    Max Swap   :       292 MB
+
+    Max Processes  :         4
+    Max Threads    :         5
+
+The output (if any) follows:
+
+Input is a list of snps. Converting snps to genes...
+{0: ['PANK4', 'TNFRSF14', 'HES5', 'MMEL1', 'PADI4', 'HIPK1', 'MAGI3', 'PTPN22', 'RSBN1', 'AP4B1', 'DCLRE1B', 'CD2', 'FCRL3', 'CD5L', 'SLAMF7', 'ITLN1', 'CD244', 'LY9', 'FCGR2B', 'FCGR2A', 'HSPA6', 'FCGR3A', 'FCGR3B', 'FCRLA', 'DUSP12', 'PTPRC', 'REL', 'AFF3', 'LONRF2', 'NMS', 'STAT4', 'NAB1', 'GLS', 'STAT1', 'RAPH1', 'CD28', 'CTLA4', 'ICOS', 'KIAA1109', 'IL2', 'IL21', 'GPSM3', 'NOTCH4', 'PBX2', 'HLA-DRB5', 'HLA-DRA', 'HLA-DRB1', 'HLA-DQB1', 'HLA-DQA1', 'HLA-DQA2', 'ATG5', 'PRDM1', 'TNFAIP3', 'TAGAP', 'BLK', 'CCL19', 'IL11RA', 'CCL21', 'CCL27', 'C5', 'PSMD5', 'TRAF1', 'RAB14', 'FBXO18', 'IL15RA', 'IL2RA', 'RBM17', 'RAG1', 'TRAF6', 'RAG2', 'XRCC6BP1', 'AVIL', 'DCTN2', 'MBD6', 'ARHGAP9', 'INHBC', 'MARS', 'GLI1', 'DDIT3', 'INHBE', 'PIP4K2C', 'KIF5A', 'SLC26A10', 'DTX3', 'OS9', 'METTL1', 'TSFM', 'AGAP2', 'CDK4', 'CTDSP2', 'SLC12A5', 'NCOA5', 'MMP9', 'CD40', 'IL2RB', 'TMPRSS6', 'SSTR3'], 1: ['rs3890745', 'rs3890745', 'rs3890745', 'rs3890745', 'rs2240340', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs11586238', 'rs7528684', 'rs7528684', 'rs3766379', 'rs3766379', 'rs3766379', 'rs3766379', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs10919563', 'rs13031237', 'rs10865035', 'rs10865035', 'rs10865035', 'rs7574865', 'rs7574865', 'rs7574865', 'rs7574865', 'rs1980422', 'rs1980422', 'rs1980422', 'rs3087243', 'rs6822844', 'rs6822844', 'rs6822844', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs548234', 'rs548234', 'rs5029937', 'rs394581', 'rs2736340', 'rs2812378', 'rs2812378', 'rs2812378', 'rs2812378', 'rs3761847', 'rs3761847', 'rs3761847', 'rs3761847', 'rs2104286', 'rs2104286', 'rs2104286', 'rs2104286', 'rs540386', 'rs540386', 'rs540386', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs4810485', 'rs4810485', 'rs4810485', 'rs4810485', 'rs3218253', 'rs3218253', 'rs3218253']}
+[10635, 22737, 20675, 7905, 3232, 8552, 629, 10394, 11619, 4327, 9296, 5792, 6383, 346, 16967, 7091, 20496, 5623, 4687, 12190, 16585, 6560, 14690, 186, 18084, 16183, 7370, 3470, 1974, 1412, 14283, 12215, 5988, 8547, 18495, 20330, 11225, 7344, 11356, 16886, 2644, 7376, 8495, 11299, 22744, 22595, 3268, 6370, 21223, 7319, 2859, 14525, 3956, 16205, 21151, 782, 3913, 15340, 1158, 6170, 6918, 17165, 18086, 5738, 6595, 12001, 835, 3753, 2784, 17861, 702, 4257, 11499, 12679, 15595, 8559, 19344, 9126, 12645, 19486, 14956, 5404, 12860, 15270, 16306, 18780, 8530, 5093, 8239, 4443, 7587, 10028, 5518, 1413, 18223, 14679, 12588]
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+Building disease network...
+FCGR2B -- BLK
+IL21 -- IL2RA
+IL21 -- IL2RB
+IL21 -- IL11RA
+IL21 -- IL15RA
+PIP4K2C -- HIPK1
+BLK -- FCGR2A
+DUSP12 -- MBD6
+HSPA6 -- REL
+TNFRSF14 -- TRAF1
+TRAF6 -- CD40
+TRAF6 -- MARS
+TRAF6 -- TNFAIP3
+TRAF1 -- CD40
+TRAF1 -- TNFAIP3
+IL2RB -- IL2RA
+IL2RB -- IL2
+IL2RB -- IL15RA
+IL2RB -- STAT1
+PTPRC -- FCGR3B
+PTPRC -- CD28
+PTPRC -- CD2
+PTPRC -- FCGR3A
+IL2RA -- IL2
+IL11RA -- IL2
+STAT1 -- CD40
+IL15RA -- IL2
+There were 27 direct interactions in total.
+Number of disease proteins in direct network: 27.0
+Mean associated protein direct connectivity: 2.0
+Mean associated protein indirect connectivity: 27.725
+Mean CI connectivity: 2.92786069652
+Building 10 permuted networks...
+0% complete...
+90% complete...
+Summarizing results...
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+You chose not to iterate. Ending here.
+Sender: LSF System <lsf@node1068>
+Subject: Job 7407289: <test_merge> Exited
+
+Job <test_merge> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <1*node1068>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+                            <1*node1440>
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:30:45 2013
+Results reported at Fri Nov 29 14:30:46 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/mergeResults.py config
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time   :      0.35 sec.
+    Max Memory :         3 MB
+    Max Swap   :        40 MB
+
+    Max Processes  :         1
+    Max Threads    :         1
+
+The output (if any) follows:
+
+Traceback (most recent call last):
+  File "/web/wwwprod/htdocs/mpg/dapple/NewCode/mergeResults.py", line 52, in <module>
+    diseaseresults = open(keyword+"_1_NetStats",'r').readlines()
+IOError: [Errno 2] No such file or directory: 'test_1_NetStats'
+Sender: LSF System <lsf@node1660>
+Subject: Job 7407314: <test_5> Done
+
+Job <test_5> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <1*node1660>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+                            <1*node1632>
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:33:48 2013
+Results reported at Fri Nov 29 14:34:22 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py config 5
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :     28.83 sec.
+    Max Memory :       160 MB
+    Max Swap   :       292 MB
+
+    Max Processes  :         4
+    Max Threads    :         5
+
+The output (if any) follows:
+
+Input is a list of snps. Converting snps to genes...
+{0: ['PANK4', 'TNFRSF14', 'HES5', 'MMEL1', 'PADI4', 'HIPK1', 'MAGI3', 'PTPN22', 'RSBN1', 'AP4B1', 'DCLRE1B', 'CD2', 'FCRL3', 'CD5L', 'SLAMF7', 'ITLN1', 'CD244', 'LY9', 'FCGR2B', 'FCGR2A', 'HSPA6', 'FCGR3A', 'FCGR3B', 'FCRLA', 'DUSP12', 'PTPRC', 'REL', 'AFF3', 'LONRF2', 'NMS', 'STAT4', 'NAB1', 'GLS', 'STAT1', 'RAPH1', 'CD28', 'CTLA4', 'ICOS', 'KIAA1109', 'IL2', 'IL21', 'GPSM3', 'NOTCH4', 'PBX2', 'HLA-DRB5', 'HLA-DRA', 'HLA-DRB1', 'HLA-DQB1', 'HLA-DQA1', 'HLA-DQA2', 'ATG5', 'PRDM1', 'TNFAIP3', 'TAGAP', 'BLK', 'CCL19', 'IL11RA', 'CCL21', 'CCL27', 'C5', 'PSMD5', 'TRAF1', 'RAB14', 'FBXO18', 'IL15RA', 'IL2RA', 'RBM17', 'RAG1', 'TRAF6', 'RAG2', 'XRCC6BP1', 'AVIL', 'DCTN2', 'MBD6', 'ARHGAP9', 'INHBC', 'MARS', 'GLI1', 'DDIT3', 'INHBE', 'PIP4K2C', 'KIF5A', 'SLC26A10', 'DTX3', 'OS9', 'METTL1', 'TSFM', 'AGAP2', 'CDK4', 'CTDSP2', 'SLC12A5', 'NCOA5', 'MMP9', 'CD40', 'IL2RB', 'TMPRSS6', 'SSTR3'], 1: ['rs3890745', 'rs3890745', 'rs3890745', 'rs3890745', 'rs2240340', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs11586238', 'rs7528684', 'rs7528684', 'rs3766379', 'rs3766379', 'rs3766379', 'rs3766379', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs10919563', 'rs13031237', 'rs10865035', 'rs10865035', 'rs10865035', 'rs7574865', 'rs7574865', 'rs7574865', 'rs7574865', 'rs1980422', 'rs1980422', 'rs1980422', 'rs3087243', 'rs6822844', 'rs6822844', 'rs6822844', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs548234', 'rs548234', 'rs5029937', 'rs394581', 'rs2736340', 'rs2812378', 'rs2812378', 'rs2812378', 'rs2812378', 'rs3761847', 'rs3761847', 'rs3761847', 'rs3761847', 'rs2104286', 'rs2104286', 'rs2104286', 'rs2104286', 'rs540386', 'rs540386', 'rs540386', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs4810485', 'rs4810485', 'rs4810485', 'rs4810485', 'rs3218253', 'rs3218253', 'rs3218253']}
+[10635, 22737, 20675, 7905, 3232, 8552, 629, 10394, 11619, 4327, 9296, 5792, 6383, 346, 16967, 7091, 20496, 5623, 4687, 12190, 16585, 6560, 14690, 186, 18084, 16183, 7370, 3470, 1974, 1412, 14283, 12215, 5988, 8547, 18495, 20330, 11225, 7344, 11356, 16886, 2644, 7376, 8495, 11299, 22744, 22595, 3268, 6370, 21223, 7319, 2859, 14525, 3956, 16205, 21151, 782, 3913, 15340, 1158, 6170, 6918, 17165, 18086, 5738, 6595, 12001, 835, 3753, 2784, 17861, 702, 4257, 11499, 12679, 15595, 8559, 19344, 9126, 12645, 19486, 14956, 5404, 12860, 15270, 16306, 18780, 8530, 5093, 8239, 4443, 7587, 10028, 5518, 1413, 18223, 14679, 12588]
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+Building disease network...
+FCGR2B -- BLK
+IL21 -- IL2RA
+IL21 -- IL2RB
+IL21 -- IL11RA
+IL21 -- IL15RA
+PIP4K2C -- HIPK1
+BLK -- FCGR2A
+DUSP12 -- MBD6
+HSPA6 -- REL
+TNFRSF14 -- TRAF1
+TRAF6 -- CD40
+TRAF6 -- MARS
+TRAF6 -- TNFAIP3
+TRAF1 -- CD40
+TRAF1 -- TNFAIP3
+IL2RB -- IL2RA
+IL2RB -- IL2
+IL2RB -- IL15RA
+IL2RB -- STAT1
+PTPRC -- FCGR3B
+PTPRC -- CD28
+PTPRC -- CD2
+PTPRC -- FCGR3A
+IL2RA -- IL2
+IL11RA -- IL2
+STAT1 -- CD40
+IL15RA -- IL2
+There were 27 direct interactions in total.
+Number of disease proteins in direct network: 27.0
+Mean associated protein direct connectivity: 2.0
+Mean associated protein indirect connectivity: 27.725
+Mean CI connectivity: 2.92786069652
+Building 10 permuted networks...
+0% complete...
+90% complete...
+Summarizing results...
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+You chose not to iterate. Ending here.
+Sender: LSF System <lsf@node1091>
+Subject: Job 7407313: <test_4> Done
+
+Job <test_4> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <1*node1091>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+                            <1*node1097>
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:33:48 2013
+Results reported at Fri Nov 29 14:34:38 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py config 4
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :     44.37 sec.
+    Max Memory :       160 MB
+    Max Swap   :       292 MB
+
+    Max Processes  :         4
+    Max Threads    :         5
+
+The output (if any) follows:
+
+Input is a list of snps. Converting snps to genes...
+{0: ['PANK4', 'TNFRSF14', 'HES5', 'MMEL1', 'PADI4', 'HIPK1', 'MAGI3', 'PTPN22', 'RSBN1', 'AP4B1', 'DCLRE1B', 'CD2', 'FCRL3', 'CD5L', 'SLAMF7', 'ITLN1', 'CD244', 'LY9', 'FCGR2B', 'FCGR2A', 'HSPA6', 'FCGR3A', 'FCGR3B', 'FCRLA', 'DUSP12', 'PTPRC', 'REL', 'AFF3', 'LONRF2', 'NMS', 'STAT4', 'NAB1', 'GLS', 'STAT1', 'RAPH1', 'CD28', 'CTLA4', 'ICOS', 'KIAA1109', 'IL2', 'IL21', 'GPSM3', 'NOTCH4', 'PBX2', 'HLA-DRB5', 'HLA-DRA', 'HLA-DRB1', 'HLA-DQB1', 'HLA-DQA1', 'HLA-DQA2', 'ATG5', 'PRDM1', 'TNFAIP3', 'TAGAP', 'BLK', 'CCL19', 'IL11RA', 'CCL21', 'CCL27', 'C5', 'PSMD5', 'TRAF1', 'RAB14', 'FBXO18', 'IL15RA', 'IL2RA', 'RBM17', 'RAG1', 'TRAF6', 'RAG2', 'XRCC6BP1', 'AVIL', 'DCTN2', 'MBD6', 'ARHGAP9', 'INHBC', 'MARS', 'GLI1', 'DDIT3', 'INHBE', 'PIP4K2C', 'KIF5A', 'SLC26A10', 'DTX3', 'OS9', 'METTL1', 'TSFM', 'AGAP2', 'CDK4', 'CTDSP2', 'SLC12A5', 'NCOA5', 'MMP9', 'CD40', 'IL2RB', 'TMPRSS6', 'SSTR3'], 1: ['rs3890745', 'rs3890745', 'rs3890745', 'rs3890745', 'rs2240340', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs11586238', 'rs7528684', 'rs7528684', 'rs3766379', 'rs3766379', 'rs3766379', 'rs3766379', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs10919563', 'rs13031237', 'rs10865035', 'rs10865035', 'rs10865035', 'rs7574865', 'rs7574865', 'rs7574865', 'rs7574865', 'rs1980422', 'rs1980422', 'rs1980422', 'rs3087243', 'rs6822844', 'rs6822844', 'rs6822844', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs548234', 'rs548234', 'rs5029937', 'rs394581', 'rs2736340', 'rs2812378', 'rs2812378', 'rs2812378', 'rs2812378', 'rs3761847', 'rs3761847', 'rs3761847', 'rs3761847', 'rs2104286', 'rs2104286', 'rs2104286', 'rs2104286', 'rs540386', 'rs540386', 'rs540386', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs4810485', 'rs4810485', 'rs4810485', 'rs4810485', 'rs3218253', 'rs3218253', 'rs3218253']}
+[10635, 22737, 20675, 7905, 3232, 8552, 629, 10394, 11619, 4327, 9296, 5792, 6383, 346, 16967, 7091, 20496, 5623, 4687, 12190, 16585, 6560, 14690, 186, 18084, 16183, 7370, 3470, 1974, 1412, 14283, 12215, 5988, 8547, 18495, 20330, 11225, 7344, 11356, 16886, 2644, 7376, 8495, 11299, 22744, 22595, 3268, 6370, 21223, 7319, 2859, 14525, 3956, 16205, 21151, 782, 3913, 15340, 1158, 6170, 6918, 17165, 18086, 5738, 6595, 12001, 835, 3753, 2784, 17861, 702, 4257, 11499, 12679, 15595, 8559, 19344, 9126, 12645, 19486, 14956, 5404, 12860, 15270, 16306, 18780, 8530, 5093, 8239, 4443, 7587, 10028, 5518, 1413, 18223, 14679, 12588]
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+Building disease network...
+FCGR2B -- BLK
+IL21 -- IL2RA
+IL21 -- IL2RB
+IL21 -- IL11RA
+IL21 -- IL15RA
+PIP4K2C -- HIPK1
+BLK -- FCGR2A
+DUSP12 -- MBD6
+HSPA6 -- REL
+TNFRSF14 -- TRAF1
+TRAF6 -- CD40
+TRAF6 -- MARS
+TRAF6 -- TNFAIP3
+TRAF1 -- CD40
+TRAF1 -- TNFAIP3
+IL2RB -- IL2RA
+IL2RB -- IL2
+IL2RB -- IL15RA
+IL2RB -- STAT1
+PTPRC -- FCGR3B
+PTPRC -- CD28
+PTPRC -- CD2
+PTPRC -- FCGR3A
+IL2RA -- IL2
+IL11RA -- IL2
+STAT1 -- CD40
+IL15RA -- IL2
+There were 27 direct interactions in total.
+Number of disease proteins in direct network: 27.0
+Mean associated protein direct connectivity: 2.0
+Mean associated protein indirect connectivity: 27.725
+Mean CI connectivity: 2.92786069652
+Building 10 permuted networks...
+0% complete...
+90% complete...
+Summarizing results...
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+You chose not to iterate. Ending here.
+Sender: LSF System <lsf@node1093>
+Subject: Job 7407310: <test_1> Done
+
+Job <test_1> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <1*node1093>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+                            <1*node1414>
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:33:48 2013
+Results reported at Fri Nov 29 14:34:43 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py config 1
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :     48.74 sec.
+    Max Memory :       160 MB
+    Max Swap   :       292 MB
+
+    Max Processes  :         4
+    Max Threads    :         5
+
+The output (if any) follows:
+
+Input is a list of snps. Converting snps to genes...
+{0: ['PANK4', 'TNFRSF14', 'HES5', 'MMEL1', 'PADI4', 'HIPK1', 'MAGI3', 'PTPN22', 'RSBN1', 'AP4B1', 'DCLRE1B', 'CD2', 'FCRL3', 'CD5L', 'SLAMF7', 'ITLN1', 'CD244', 'LY9', 'FCGR2B', 'FCGR2A', 'HSPA6', 'FCGR3A', 'FCGR3B', 'FCRLA', 'DUSP12', 'PTPRC', 'REL', 'AFF3', 'LONRF2', 'NMS', 'STAT4', 'NAB1', 'GLS', 'STAT1', 'RAPH1', 'CD28', 'CTLA4', 'ICOS', 'KIAA1109', 'IL2', 'IL21', 'GPSM3', 'NOTCH4', 'PBX2', 'HLA-DRB5', 'HLA-DRA', 'HLA-DRB1', 'HLA-DQB1', 'HLA-DQA1', 'HLA-DQA2', 'ATG5', 'PRDM1', 'TNFAIP3', 'TAGAP', 'BLK', 'CCL19', 'IL11RA', 'CCL21', 'CCL27', 'C5', 'PSMD5', 'TRAF1', 'RAB14', 'FBXO18', 'IL15RA', 'IL2RA', 'RBM17', 'RAG1', 'TRAF6', 'RAG2', 'XRCC6BP1', 'AVIL', 'DCTN2', 'MBD6', 'ARHGAP9', 'INHBC', 'MARS', 'GLI1', 'DDIT3', 'INHBE', 'PIP4K2C', 'KIF5A', 'SLC26A10', 'DTX3', 'OS9', 'METTL1', 'TSFM', 'AGAP2', 'CDK4', 'CTDSP2', 'SLC12A5', 'NCOA5', 'MMP9', 'CD40', 'IL2RB', 'TMPRSS6', 'SSTR3'], 1: ['rs3890745', 'rs3890745', 'rs3890745', 'rs3890745', 'rs2240340', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs11586238', 'rs7528684', 'rs7528684', 'rs3766379', 'rs3766379', 'rs3766379', 'rs3766379', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs10919563', 'rs13031237', 'rs10865035', 'rs10865035', 'rs10865035', 'rs7574865', 'rs7574865', 'rs7574865', 'rs7574865', 'rs1980422', 'rs1980422', 'rs1980422', 'rs3087243', 'rs6822844', 'rs6822844', 'rs6822844', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs548234', 'rs548234', 'rs5029937', 'rs394581', 'rs2736340', 'rs2812378', 'rs2812378', 'rs2812378', 'rs2812378', 'rs3761847', 'rs3761847', 'rs3761847', 'rs3761847', 'rs2104286', 'rs2104286', 'rs2104286', 'rs2104286', 'rs540386', 'rs540386', 'rs540386', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs4810485', 'rs4810485', 'rs4810485', 'rs4810485', 'rs3218253', 'rs3218253', 'rs3218253']}
+[10635, 22737, 20675, 7905, 3232, 8552, 629, 10394, 11619, 4327, 9296, 5792, 6383, 346, 16967, 7091, 20496, 5623, 4687, 12190, 16585, 6560, 14690, 186, 18084, 16183, 7370, 3470, 1974, 1412, 14283, 12215, 5988, 8547, 18495, 20330, 11225, 7344, 11356, 16886, 2644, 7376, 8495, 11299, 22744, 22595, 3268, 6370, 21223, 7319, 2859, 14525, 3956, 16205, 21151, 782, 3913, 15340, 1158, 6170, 6918, 17165, 18086, 5738, 6595, 12001, 835, 3753, 2784, 17861, 702, 4257, 11499, 12679, 15595, 8559, 19344, 9126, 12645, 19486, 14956, 5404, 12860, 15270, 16306, 18780, 8530, 5093, 8239, 4443, 7587, 10028, 5518, 1413, 18223, 14679, 12588]
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+Building disease network...
+FCGR2B -- BLK
+IL21 -- IL2RA
+IL21 -- IL2RB
+IL21 -- IL11RA
+IL21 -- IL15RA
+PIP4K2C -- HIPK1
+BLK -- FCGR2A
+DUSP12 -- MBD6
+HSPA6 -- REL
+TNFRSF14 -- TRAF1
+TRAF6 -- CD40
+TRAF6 -- MARS
+TRAF6 -- TNFAIP3
+TRAF1 -- CD40
+TRAF1 -- TNFAIP3
+IL2RB -- IL2RA
+IL2RB -- IL2
+IL2RB -- IL15RA
+IL2RB -- STAT1
+PTPRC -- FCGR3B
+PTPRC -- CD28
+PTPRC -- CD2
+PTPRC -- FCGR3A
+IL2RA -- IL2
+IL11RA -- IL2
+STAT1 -- CD40
+IL15RA -- IL2
+There were 27 direct interactions in total.
+Number of disease proteins in direct network: 27.0
+Mean associated protein direct connectivity: 2.0
+Mean associated protein indirect connectivity: 27.725
+Mean CI connectivity: 2.92786069652
+Building 10 permuted networks...
+0% complete...
+90% complete...
+Summarizing results...
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+You chose not to iterate. Ending here.
+Sender: LSF System <lsf@node1437>
+Subject: Job 7407312: <test_3> Done
+
+Job <test_3> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <2*node1437>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:33:48 2013
+Results reported at Fri Nov 29 14:34:43 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py config 3
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :     49.13 sec.
+    Max Memory :       160 MB
+    Max Swap   :       292 MB
+
+    Max Processes  :         4
+    Max Threads    :         5
+
+The output (if any) follows:
+
+Input is a list of snps. Converting snps to genes...
+{0: ['PANK4', 'TNFRSF14', 'HES5', 'MMEL1', 'PADI4', 'HIPK1', 'MAGI3', 'PTPN22', 'RSBN1', 'AP4B1', 'DCLRE1B', 'CD2', 'FCRL3', 'CD5L', 'SLAMF7', 'ITLN1', 'CD244', 'LY9', 'FCGR2B', 'FCGR2A', 'HSPA6', 'FCGR3A', 'FCGR3B', 'FCRLA', 'DUSP12', 'PTPRC', 'REL', 'AFF3', 'LONRF2', 'NMS', 'STAT4', 'NAB1', 'GLS', 'STAT1', 'RAPH1', 'CD28', 'CTLA4', 'ICOS', 'KIAA1109', 'IL2', 'IL21', 'GPSM3', 'NOTCH4', 'PBX2', 'HLA-DRB5', 'HLA-DRA', 'HLA-DRB1', 'HLA-DQB1', 'HLA-DQA1', 'HLA-DQA2', 'ATG5', 'PRDM1', 'TNFAIP3', 'TAGAP', 'BLK', 'CCL19', 'IL11RA', 'CCL21', 'CCL27', 'C5', 'PSMD5', 'TRAF1', 'RAB14', 'FBXO18', 'IL15RA', 'IL2RA', 'RBM17', 'RAG1', 'TRAF6', 'RAG2', 'XRCC6BP1', 'AVIL', 'DCTN2', 'MBD6', 'ARHGAP9', 'INHBC', 'MARS', 'GLI1', 'DDIT3', 'INHBE', 'PIP4K2C', 'KIF5A', 'SLC26A10', 'DTX3', 'OS9', 'METTL1', 'TSFM', 'AGAP2', 'CDK4', 'CTDSP2', 'SLC12A5', 'NCOA5', 'MMP9', 'CD40', 'IL2RB', 'TMPRSS6', 'SSTR3'], 1: ['rs3890745', 'rs3890745', 'rs3890745', 'rs3890745', 'rs2240340', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs11586238', 'rs7528684', 'rs7528684', 'rs3766379', 'rs3766379', 'rs3766379', 'rs3766379', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs10919563', 'rs13031237', 'rs10865035', 'rs10865035', 'rs10865035', 'rs7574865', 'rs7574865', 'rs7574865', 'rs7574865', 'rs1980422', 'rs1980422', 'rs1980422', 'rs3087243', 'rs6822844', 'rs6822844', 'rs6822844', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs548234', 'rs548234', 'rs5029937', 'rs394581', 'rs2736340', 'rs2812378', 'rs2812378', 'rs2812378', 'rs2812378', 'rs3761847', 'rs3761847', 'rs3761847', 'rs3761847', 'rs2104286', 'rs2104286', 'rs2104286', 'rs2104286', 'rs540386', 'rs540386', 'rs540386', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs4810485', 'rs4810485', 'rs4810485', 'rs4810485', 'rs3218253', 'rs3218253', 'rs3218253']}
+[10635, 22737, 20675, 7905, 3232, 8552, 629, 10394, 11619, 4327, 9296, 5792, 6383, 346, 16967, 7091, 20496, 5623, 4687, 12190, 16585, 6560, 14690, 186, 18084, 16183, 7370, 3470, 1974, 1412, 14283, 12215, 5988, 8547, 18495, 20330, 11225, 7344, 11356, 16886, 2644, 7376, 8495, 11299, 22744, 22595, 3268, 6370, 21223, 7319, 2859, 14525, 3956, 16205, 21151, 782, 3913, 15340, 1158, 6170, 6918, 17165, 18086, 5738, 6595, 12001, 835, 3753, 2784, 17861, 702, 4257, 11499, 12679, 15595, 8559, 19344, 9126, 12645, 19486, 14956, 5404, 12860, 15270, 16306, 18780, 8530, 5093, 8239, 4443, 7587, 10028, 5518, 1413, 18223, 14679, 12588]
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+Building disease network...
+FCGR2B -- BLK
+IL21 -- IL2RA
+IL21 -- IL2RB
+IL21 -- IL11RA
+IL21 -- IL15RA
+PIP4K2C -- HIPK1
+BLK -- FCGR2A
+DUSP12 -- MBD6
+HSPA6 -- REL
+TNFRSF14 -- TRAF1
+TRAF6 -- CD40
+TRAF6 -- MARS
+TRAF6 -- TNFAIP3
+TRAF1 -- CD40
+TRAF1 -- TNFAIP3
+IL2RB -- IL2RA
+IL2RB -- IL2
+IL2RB -- IL15RA
+IL2RB -- STAT1
+PTPRC -- FCGR3B
+PTPRC -- CD28
+PTPRC -- CD2
+PTPRC -- FCGR3A
+IL2RA -- IL2
+IL11RA -- IL2
+STAT1 -- CD40
+IL15RA -- IL2
+There were 27 direct interactions in total.
+Number of disease proteins in direct network: 27.0
+Mean associated protein direct connectivity: 2.0
+Mean associated protein indirect connectivity: 27.725
+Mean CI connectivity: 2.92786069652
+Building 10 permuted networks...
+0% complete...
+90% complete...
+Summarizing results...
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+You chose not to iterate. Ending here.
+Sender: LSF System <lsf@node1068>
+Subject: Job 7407311: <test_2> Done
+
+Job <test_2> was submitted from host <nickel> by user <rossin> in cluster <cromwell>.
+Job was executed on host(s) <1*node1068>, in queue <hour>, as user <rossin> in cluster <cromwell>.
+                            <1*node1021>
+</home/unix/rossin> was used as the home directory.
+</web/wwwprod/htdocs/mpg/dapple/NewCode> was used as the working directory.
+Started at Fri Nov 29 14:33:48 2013
+Results reported at Fri Nov 29 14:34:44 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /web/wwwprod/htdocs/mpg/dapple/NewCode/webWrapperTMP.py config 2
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :     46.29 sec.
+    Max Memory :       160 MB
+    Max Swap   :       292 MB
+
+    Max Processes  :         4
+    Max Threads    :         5
+
+The output (if any) follows:
+
+Input is a list of snps. Converting snps to genes...
+{0: ['PANK4', 'TNFRSF14', 'HES5', 'MMEL1', 'PADI4', 'HIPK1', 'MAGI3', 'PTPN22', 'RSBN1', 'AP4B1', 'DCLRE1B', 'CD2', 'FCRL3', 'CD5L', 'SLAMF7', 'ITLN1', 'CD244', 'LY9', 'FCGR2B', 'FCGR2A', 'HSPA6', 'FCGR3A', 'FCGR3B', 'FCRLA', 'DUSP12', 'PTPRC', 'REL', 'AFF3', 'LONRF2', 'NMS', 'STAT4', 'NAB1', 'GLS', 'STAT1', 'RAPH1', 'CD28', 'CTLA4', 'ICOS', 'KIAA1109', 'IL2', 'IL21', 'GPSM3', 'NOTCH4', 'PBX2', 'HLA-DRB5', 'HLA-DRA', 'HLA-DRB1', 'HLA-DQB1', 'HLA-DQA1', 'HLA-DQA2', 'ATG5', 'PRDM1', 'TNFAIP3', 'TAGAP', 'BLK', 'CCL19', 'IL11RA', 'CCL21', 'CCL27', 'C5', 'PSMD5', 'TRAF1', 'RAB14', 'FBXO18', 'IL15RA', 'IL2RA', 'RBM17', 'RAG1', 'TRAF6', 'RAG2', 'XRCC6BP1', 'AVIL', 'DCTN2', 'MBD6', 'ARHGAP9', 'INHBC', 'MARS', 'GLI1', 'DDIT3', 'INHBE', 'PIP4K2C', 'KIF5A', 'SLC26A10', 'DTX3', 'OS9', 'METTL1', 'TSFM', 'AGAP2', 'CDK4', 'CTDSP2', 'SLC12A5', 'NCOA5', 'MMP9', 'CD40', 'IL2RB', 'TMPRSS6', 'SSTR3'], 1: ['rs3890745', 'rs3890745', 'rs3890745', 'rs3890745', 'rs2240340', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs2476601', 'rs11586238', 'rs7528684', 'rs7528684', 'rs3766379', 'rs3766379', 'rs3766379', 'rs3766379', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs12746613', 'rs10919563', 'rs13031237', 'rs10865035', 'rs10865035', 'rs10865035', 'rs7574865', 'rs7574865', 'rs7574865', 'rs7574865', 'rs1980422', 'rs1980422', 'rs1980422', 'rs3087243', 'rs6822844', 'rs6822844', 'rs6822844', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs2395175', 'rs548234', 'rs548234', 'rs5029937', 'rs394581', 'rs2736340', 'rs2812378', 'rs2812378', 'rs2812378', 'rs2812378', 'rs3761847', 'rs3761847', 'rs3761847', 'rs3761847', 'rs2104286', 'rs2104286', 'rs2104286', 'rs2104286', 'rs540386', 'rs540386', 'rs540386', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs1678542', 'rs4810485', 'rs4810485', 'rs4810485', 'rs4810485', 'rs3218253', 'rs3218253', 'rs3218253']}
+[10635, 22737, 20675, 7905, 3232, 8552, 629, 10394, 11619, 4327, 9296, 5792, 6383, 346, 16967, 7091, 20496, 5623, 4687, 12190, 16585, 6560, 14690, 186, 18084, 16183, 7370, 3470, 1974, 1412, 14283, 12215, 5988, 8547, 18495, 20330, 11225, 7344, 11356, 16886, 2644, 7376, 8495, 11299, 22744, 22595, 3268, 6370, 21223, 7319, 2859, 14525, 3956, 16205, 21151, 782, 3913, 15340, 1158, 6170, 6918, 17165, 18086, 5738, 6595, 12001, 835, 3753, 2784, 17861, 702, 4257, 11499, 12679, 15595, 8559, 19344, 9126, 12645, 19486, 14956, 5404, 12860, 15270, 16306, 18780, 8530, 5093, 8239, 4443, 7587, 10028, 5518, 1413, 18223, 14679, 12588]
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+Building disease network...
+FCGR2B -- BLK
+IL21 -- IL2RA
+IL21 -- IL2RB
+IL21 -- IL11RA
+IL21 -- IL15RA
+PIP4K2C -- HIPK1
+BLK -- FCGR2A
+DUSP12 -- MBD6
+HSPA6 -- REL
+TNFRSF14 -- TRAF1
+TRAF6 -- CD40
+TRAF6 -- MARS
+TRAF6 -- TNFAIP3
+TRAF1 -- CD40
+TRAF1 -- TNFAIP3
+IL2RB -- IL2RA
+IL2RB -- IL2
+IL2RB -- IL15RA
+IL2RB -- STAT1
+PTPRC -- FCGR3B
+PTPRC -- CD28
+PTPRC -- CD2
+PTPRC -- FCGR3A
+IL2RA -- IL2
+IL11RA -- IL2
+STAT1 -- CD40
+IL15RA -- IL2
+There were 27 direct interactions in total.
+Number of disease proteins in direct network: 27.0
+Mean associated protein direct connectivity: 2.0
+Mean associated protein indirect connectivity: 27.725
+Mean CI connectivity: 2.92786069652
+Building 10 permuted networks...
+0% complete...
+90% complete...
+Summarizing results...
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+[20496, 6170, 19486, 11299, 8239, 12860, 18495, 22595, 16967, 4687, 9296, 11619, 2644, 11356, 5738, 14956, 629, 1158, 7319, 10394, 21151, 3232, 4257, 18084, 18086, 3753, 7344, 186, 14525, 702, 20675, 3268, 16585, 7370, 7376, 22737, 22744, 2784, 12001, 6370, 4327, 11499, 6383, 6918, 12588, 17165, 782, 18223, 5404, 2859, 10028, 8495, 16183, 835, 7905, 3913, 16205, 8530, 5518, 14679, 346, 4443, 18780, 5093, 14690, 8547, 5988, 12645, 8552, 20330, 21223, 8559, 3956, 15595, 1412, 1413, 12679, 10635, 3470, 19344, 12190, 6560, 7587, 15270, 16306, 7091, 1974, 12215, 5792, 6595, 17861, 14283, 11225, 9126, 15340, 16886, 5623]
+You chose not to iterate. Ending here.
