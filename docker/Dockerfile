@@ -46,3 +46,10 @@ RUN Rscript -e "install.packages('https://cran.r-project.org/src/contrib/magritt
   repos = NULL, type='source')"
 RUN Rscript -e "install.packages('https://cran.r-project.org/src/contrib/Archive/igraph/igraph_0.7.1.tar.gz', \
   repos = NULL, type='source')"
+
+# copy data into container
+ADD /source/code /code
+ADD /source/data /data
+
+# use copy as add might decompress data
+RUN /code/downloadData.sh
