@@ -98,4 +98,4 @@ quality=production
 taskDoc=README.pdf
 taskType=beta
 userid=rossin
-version=changed job status error handling, ignore stderr.txt
+version=created docker image RC
