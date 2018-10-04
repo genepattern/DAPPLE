@@ -1,10 +1,11 @@
 #DAPPLE
 #Fri Jul 06 16:13:35 EDT 2018
 JVMLevel=
-LSID=urn\:lsid\:8080.gpbroad.broadinstitute.org\:genepatternmodules\:479\:0.17
-author=Lizzy Rossin
+LSID=urn\:lsid\:8080.gpbroad.broadinstitute.org\:genepatternmodules\:479\:0.19
+author=Lizzy Rossin, Heiko Horn
+job.docker.image=genepattern/dapple:v0.19
 categories=beta;Proteomics;Statistical Methods
-commandLine=<run-with-env> -u Python-2.6 -u R-3.1 python /web/wwwprod/htdocs/mpg/dapple/NewCode/BuildNetwork_slowTMP.py <Input.File> keyword\=<Keyword> permute\=<Permute.Length> plot\=<Plot> genome\=<genome.build> nearestgene\=<nearest.gene>
+commandLine=<run-with-env> -u Python-2.6 -u R-3.1 python /code/BuildNetwork_slowTMP.py <Input.File> keyword\=<Keyword> permute\=<Permute.Length> plot\=<Plot> genome\=<genome.build> nearestgene\=<nearest.gene>
 cpuType=any
 description=DAPPLE
 fileFormat=

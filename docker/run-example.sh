@@ -58,7 +58,7 @@ docker run \
 python "${dapple_script}" \
   "${input_file}" \
   keyword=p1000NearestFalseHG18try2 \
-  permute=1000 \
+  permute=10 \
   plot=true \
   genome=18 \
   nearestgene=false 
