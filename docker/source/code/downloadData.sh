@@ -2,15 +2,15 @@
 
 URL="https://personal.broadinstitute.org/hhorn/dappleData/"
 
-#mkdir -p /data/bim
-#mkdir -p /data/bim/hg18
-#mkdir -p /data/bim/hg19
-#mkdir -p /data/bim/1KG
+mkdir -p /data/bim
+mkdir -p /data/bim/hg18
+mkdir -p /data/bim/hg19
+mkdir -p /data/bim/1KG
 
-#mkdir -p /data/wingspan
-#mkdir -p /data/wingspan/hg18
-#mkdir -p /data/wingspan/hg19
-#mkdir -p /data/wingspan/1KG
+mkdir -p /data/wingspan
+mkdir -p /data/wingspan/hg18
+mkdir -p /data/wingspan/hg19
+mkdir -p /data/wingspan/1KG
 
 for chr in {1..22}; do
     wget ${URL}bim/1KG/my.ALL_1000G_phase1integrated_v3_aug2012_macGT1_chr${chr}.eur.bfile.bim.gz -q -O /data/bim/1KG/my.ALL_1000G_phase1integrated_v3_aug2012_macGT1_chr${chr}.eur.bfile.bim.gz

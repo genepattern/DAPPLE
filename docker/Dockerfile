@@ -48,8 +48,8 @@ RUN Rscript -e "install.packages('https://cran.r-project.org/src/contrib/Archive
   repos = NULL, type='source')"
 
 # copy data into container
-ADD /source/code /code
-ADD /source/data /data
+COPY source/code /code
+COPY source/data /data
 
-# use copy as add might decompress data
+# run shell script to download the data
 RUN /code/downloadData.sh
