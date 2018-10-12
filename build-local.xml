@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="create-zip" name="DAPPLE"
+    xmlns:if="ant:if"
+    xmlns:unless="ant:unless"
+>
+    <property file="build-local.properties" />
+    <property name="dirOffset" value="../common_module_code" />
+    <import file="${dirOffset}/commontargets.xml" />
+    
+    <!-- (experimental) add or edit 'job.docker.image' in manifest file -->
+    <target name="set-docker-image" if:set="job.docker.image"
+    >
+        <propertyfile file="manifest">
+            <entry key="job.docker.image" value="${job.docker.image}" />
+        </propertyfile>
+        <!-- workaround for unnecessary escapes, '\:' -->
+        <!--
+        <replaceregexp file="manifest" byline="true" 
+            match="job\.docker\.image=.*" 
+            replace="job\.docker\.image=${job.docker.image}" />
+        -->
+    </target>
+
+    <target name="unescape-docker-image" if:set="job.docker.image">
+        <!-- workaround for unnecessary escapes, '\:' -->
+        <replaceregexp file="manifest" byline="true" 
+            match="job\.docker\.image=.*" 
+            replace="job\.docker\.image=${job.docker.image}" />
+    </target>
+
+    <target name="init">
+        <tstamp />
+        <property name="test.version" value="999999999"/>
+        <property name="dest.dir" value="build" />
+    </target>
+
+    <!-- 
+      (experimental) ant targets for a 'local' build of the module
+      Similar to 'create-zip' but with improvements to make it easier to
+      develop modules from a git working directory.
+    -->
+    <!-- target name="create-zip-local" depends="init, prezip, unescape-docker-image" -->
+    <target name="create-zip-local" depends="init, set-docker-image, unescape-docker-image">
+        <!-- antcall target="prezip" /-->
+        <property name="zip.filename" value="${ant.project.name}_v${lsid.version}.zip" />
+        <zip destfile="${dest.dir}/${zip.filename}" whenempty="fail" defaultexcludes="true">
+            <fileset dir="." includes="manifest, README.pdf, exampleInput" excludes="docker/**, gpunit/**" />
+        </zip>
+        <!-- antcall target="postzip" / -->
+    </target>
+
+    <target name="create-zip" depends="init">
+        <antcall target="prezip" />
+        <property name="zip.filename" value="${ant.project.name}.zip" />
+        <zip destfile="${dest.dir}/${zip.filename}" whenempty="fail" defaultexcludes="true">
+            <fileset dir="." includes="manifest, README.pdf, exampleInput" excludes="docker/**, gpunit/**" />
+        </zip>
+        <antcall target="postzip" />
+    </target>
+</project>
