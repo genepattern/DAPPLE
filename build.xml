@@ -44,6 +44,27 @@
         description="update the manifest file with values from 'build.properties'"
     />
 
+    <!--
+      Build the local docker image
+      --><?code
+      Examples:
+        docker build -f Dockerfile . --tag dapple
+        docker build -f Dockerfile . --tag dapple:v0.19
+        docker build -f Dockerfile . --tag genepattern/dapple:v0.19
+      ?>
+    <target name="build-image" depends="init"
+        description="build the docker image from the ./docker/Dockerfile"
+    >
+      <property name="dockerfile" value="docker/Dockerfile" />
+      <available file="${dockerfile}" property="dockerfile.exists" />
+      <fail unless="dockerfile.exists" message="Missing required file: '${dockerfile}' does not exist" />
+
+      <fail unless="job.docker.image" message="Missing required property: job.docker.image" />
+
+      <exec executable="docker" dir="docker" >
+          <arg line="build -f Dockerfile . --tag ${job.docker.image}" />
+      </exec>
+    </target>
 
     <!-- 
       Build the module zip file.
