@@ -1,8 +1,8 @@
-#Thu, 11 Oct 2018 17:27:47 -0400
+#Fri, 12 Oct 2018 20:37:28 -0400
 #DAPPLE
 #Fri Jul 06 16:13:35 EDT 2018
 JVMLevel=
-LSID=urn\:lsid\:8080.gpbroad.broadinstitute.org\:genepatternmodules\:479\:0.19
+LSID=urn:lsid:8080.gpbroad.broadinstitute.org:genepatternmodules:479:0.19
 author=Lizzy Rossin, Heiko Horn
 job.docker.image=genepattern/dapple:v0.19-pre.1
 categories=beta;Proteomics;Statistical Methods

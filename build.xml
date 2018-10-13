@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="create-zip-local" name="DAPPLE"
+    xmlns:if="ant:if"
+    xmlns:unless="ant:unless"
+>
+    <property file="build.properties" />
+
+    <!-- example, load the manifest file into manifest.* properties -->
+    <!-- property file="manifest" prefix="manifest" / -->
+
+    <target name="init">
+        <tstamp />
+        <property name="dest.dir" value="build" />
+    </target>
+
+    <!-- add or edit LSID in the manifest file -->
+    <target name="set-lsid" depends="init" if:set="LSID">
+        <propertyfile file="manifest">
+            <entry key="LSID" value="${LSID}" />
+        </propertyfile>
+    </target>
+    
+    <!-- add or edit 'job.docker.image' in the manifest file -->
+    <target name="set-docker-image" if:set="job.docker.image"
+    >
+        <propertyfile file="manifest">
+            <entry key="job.docker.image" value="${job.docker.image}" />
+        </propertyfile>
+    </target>
+
+    <!-- workaround for unnecessary escapes, '\:' -->
+    <target name="unescape-manifest" depends="init, unescape-lsid, unescape-docker-image" />
+    <target name="unescape-lsid" if:set="LSID">
+        <replaceregexp file="manifest" byline="true" 
+            match="LSID=.*" replace="LSID=${LSID}" />
+    </target>
+    <target name="unescape-docker-image" if:set="job.docker.image">
+        <replaceregexp file="manifest" byline="true" 
+            match="job\.docker\.image=.*" 
+            replace="job\.docker\.image=${job.docker.image}" />
+    </target>
+
+    <target name="update-manifest" depends="init, set-lsid, set-docker-image, unescape-manifest"
+        description="update the manifest file with values from 'build.properties'"
+    />
+
+
+    <!-- 
+      Build the module zip file.
+      
+      Note: edit the 'zip' task as needed to include/exclude all files which 
+        belong in the zip file that is added to the GenePattern Module repository.
+    -->
+    <target name="create-zip-local" depends="update-manifest"
+        description="Build the module.zip file"
+    >
+        <property name="zip.filename" value="${module.name}_${tag}.zip" />
+        <zip destfile="${dest.dir}/${zip.filename}" whenempty="fail" defaultexcludes="true">
+            <fileset dir="." includes="manifest, README.pdf, exampleInput" excludes="docker/**, gpunit/**" />
+        </zip>
+    </target>
+
+</project>
