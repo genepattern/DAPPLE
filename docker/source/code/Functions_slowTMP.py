@@ -348,11 +348,11 @@ def NearestGene(snps,build,HC=HC):
 		if build == "18":
 			posfile = gzip.open("/data/bim/hg18/chr"+str(i)+".BIM.gz",'r').readlines()
 		if build == "19":
-			posfile = gzipopen("/data/bim/hg19/chr"+str(i)+".BIM.gz",'r').readlines()
+			posfile = gzip.open("/data/bim/hg19/chr"+str(i)+".BIM.gz",'r').readlines()
 		if build == "1kg":
 			#Hope those are the real files, copied from a likely backup, might not be imputed/phased version?
 			#posfile = open("/fg/debakker_scratch/ripke/hapmap_ref/impute2_ref/1KG_Aug12/ALL_1000G_phase1integrated_v3_impute_macGT1/eur/ld_info/my.ALL_1000G_phase1integrated_v3_aug2012_macGT1_chr"+str(i)+".impute.phased.bgl.eur.bim",'r').readlines()
-			posfile = gzipopen("data/bim/1KG/my.ALL_1000G_phase1integrated_v3_aug2012_macGT1_chr"+str(i)+".eur.bfile.bim.gz",'r').readlines()
+			posfile = gzip.open("data/bim/1KG/my.ALL_1000G_phase1integrated_v3_aug2012_macGT1_chr"+str(i)+".eur.bfile.bim.gz",'r').readlines()
 		for line in posfile:
 			if line.split()[1] in snps:
 				distances=[]
