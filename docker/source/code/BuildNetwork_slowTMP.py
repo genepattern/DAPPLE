@@ -480,11 +480,14 @@ if (plot == 'true' and plotP == 'false') or (plot == 'true' and permutlength==0)
 			collapse = "TRUE"
 		if manualColoring == 'false':
 			if plotP == 'false':
-				os.system("R --vanilla --args "+collapse+" "+sys.argv[1]+" FALSE < /code/plot.R")
+				os.system("R --vanilla --silent --args "+collapse+" "+sys.argv[1]+" FALSE < /code/plot.R")
+				#os.system("Rscript --vanilla /code/plotP.R "+collapse+" "+sys.argv[1]+" FALSE") # FIX ONCE I UNDERSTAND DIFFERENT SCOPING IN R/Rscript
 			else:
-				os.system("R --vanilla --args "+collapse+" "+sys.argv[1]+" FALSE < /code/plotP.R")
+				os.system("R --vanilla --silent --args "+collapse+" "+sys.argv[1]+" FALSE < /code/plotP.R")
+				#os.system("Rscript --vanilla /code/plotP.R "+collapse+" "+sys.argv[1]+" FALSE")
 		else:
-			os.system("R --vanilla --no-save --args "+collapse+" "+sys.argv[1]+" TRUE "+manualColoring+" < /code/plot.R")
+			os.system("R --vanilla --silent --no-save --args "+collapse+" "+sys.argv[1]+" TRUE "+manualColoring+" < /code/plot.R")
+			#os.system("Rscript --vanilla /code/plot.R "+collapse+" "+sys.argv[1]+" TRUE "+manualColoring)
 
 
 ##exit if permutlength=0
@@ -535,7 +538,10 @@ for i in range(0,permutlength):
 #	if not ppifiles[i][0:2]=="RG":
 #		continue
 #	permut = buildNet("/fg/wgas2/rossin/KasperData/Diana/RandomGraphs/LizzyRandom/ForWebsite/"+ppifiles[i],"/fg/wgas2/rossin/KasperData/Diana/RandomGraphs/LizzyRandom/ForWebsite/"+ppifiles[i]+"_dataLocAnnot",seeds,genesnp,CIcutoff,keyword=sys.argv[1])
-	permut = buildNetRandom(ppifile,"/data/ppiannot",seeds,genesnp,CIcutoff,keyword=sys.argv[1])
+	if not seedRandom == "NA":
+		permut = buildNetRandom(ppifile,"/data/ppiannot",seeds,genesnp,CIcutoff,keyword=sys.argv[1], randomSeed=seedRandom+i) # Functions -> line 603
+	else:
+		permut = buildNetRandom(ppifile,"/data/ppiannot",seeds,genesnp,CIcutoff,keyword=sys.argv[1], randomSeed=seedRandom) # Functions -> line 603
 	directEdgesCountPermut = directEdgesCountPermut+(permut["directEdgesCount"],)
 	seedDirectDegreesMeanPermut = seedDirectDegreesMeanPermut+(permut["seedDirectDegreesMean"],)
 	seedIndirectDegreesMeanPermut = seedIndirectDegreesMeanPermut+(permut["seedIndirectDegreesMean"],)
@@ -757,7 +763,8 @@ if plot == 'true' and plotP == 'true':
 				os.system("sed s/manualColoring/FALSE/g /code/plot.R | sed s/NPERMUTEHERE/"+str(permutlength)+"/g | sed s/KEYWORDHERE/"+sys.argv[1]+"/g | sed s/COLLAPSEHERE/"+collapse+"/g > tmpPlot.R")			
 		else:
 			os.system("sed \'s/manualColoring/TRUE/g\' /code/plot.R | sed \'s/coloringScheme/"+manualColoring+"/g\' | sed \'s/KEYWORDHERE/"+sys.argv[1]+"/g\' > tmpPlot.R")
-		os.system("R --vanilla < tmpPlot.R")
+		os.system("R --vanilla --silent < tmpPlot.R")
+		#os.system("Rscript --vanilla tmpPlot.R")
 
 ##get coordinates
 	coordFile = open("PlotCoordinates",'r')

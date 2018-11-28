@@ -12,7 +12,7 @@ set -euo pipefail
 #
 # 'docker_img', default: dapple:0.18.3
 #
-: ${docker_img=dapple:0.19}
+: ${docker_img=dapple:v0.19-pre.3}
 
 #
 # 'dapple_dir', default: ../
@@ -36,7 +36,7 @@ rm -f ${working_dir}/*
 #
 # 'input_file', default: ../exampleInput2
 #
-: ${input_file=${dapple_dir}/exampleInput2}
+: ${input_file=${dapple_dir}/gpunit/input/SNP_input}
 
 echo "Running dapple command ..."
 echo "  working_dir: ${working_dir}"
@@ -49,11 +49,12 @@ docker run \
   ${docker_img} \
 python "${dapple_script}" \
   "${input_file}" \
-  keyword=p1000NearestFalseHG18try2 \
-  permute=10 \
+  keyword=SNPpermuteHG18 \
+  permute=100 \
   plot=true \
   genome=18 \
-  nearestgene=false 
+  nearestgene=false \
+  seed=123
 
 set +x
 

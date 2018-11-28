@@ -169,10 +169,7 @@ def buildNet(ppifile,dataAnnotFile,seeds,genesnp,CIcutoff,keyword):
 #	results["subGraphs"] = subGraphs
 	return(results)
 
-
-
 #####SNP to Gene Function#######
-
 ###Define list of proteins in the InWeb3 HC set
 HC=[]
 HCfile = open("/data/InWeb3_HC_Red_hugo",'r').readlines()
@@ -180,7 +177,6 @@ for line in HCfile:
 	HC.append(line.strip("\n").split()[0])
 	HC.append(line.strip("\n").split()[1])
 HC = list(set(HC))
-
 
 def SNPtoGeneOLD(snps,regUp,regDown,build):
 	import os
@@ -228,7 +224,6 @@ def SNPtoGeneOLD(snps,regUp,regDown,build):
 	results[0]=genes
 	results[1]=genesnps
 	return(results)
-
 
 def SNPtoGene(snps,regUp,regDown,build):
 	import os
@@ -321,11 +316,6 @@ def SNPtoGene(snps,regUp,regDown,build):
 	results[0]=PPIgenes
 	results[1]=PPIloci
 	return(results)
-
-
-
-
-
 
 ###Define nearest gene function
 def NearestGene(snps,build,HC=HC):
@@ -500,7 +490,7 @@ def mergeRegions(seeds,snps):
 		regionSeed[snps[i]].append(seeds[i])
 	#for each region, figure out overlapping regions
 	regionsToJoin = {}
-   	for region in regionSeed.keys():
+	for region in regionSeed.keys():
 		regionsToJoin[region]=[]
 		for otherRegion in regionSeed.keys():
 			if otherRegion!=region:
@@ -610,13 +600,13 @@ def anyGeneRegion(inputlist):
 			out=False
 	return(out)
 
-def buildNetRandom(ppifile,dataAnnotFile,seeds,genesnp,CIcutoff,keyword):
+def buildNetRandom(ppifile,dataAnnotFile,seeds,genesnp,CIcutoff,keyword,randomSeed):
 	import copy
 	ppifile = open(ppifile,'r').readlines()
 	ppiannot = open(dataAnnotFile,'r').readlines()
 
 	#mix seed and genesnp
-	shuffledNodes = getNewMapping(ppifile)
+	shuffledNodes = getNewMapping(ppifile, randomSeed)
 #	shuffledNodesReverse = {y:x for x,y in shuffledNodes.iteritems()}
 
 	seedsDict = {}
@@ -774,10 +764,12 @@ def buildNetRandom(ppifile,dataAnnotFile,seeds,genesnp,CIcutoff,keyword):
 	results["CIseed"] = CIseed
 	return(results)
 
-def getNewMapping(ppifile):
+def getNewMapping(ppifile, randomSeed):
 	import random
 	import sys
 
+	if not randomSeed == "NA":
+		random.seed(randomSeed)
 #	print >> sys.stderr, ppifileName
 
 #	data = open(ppifileName,'r')

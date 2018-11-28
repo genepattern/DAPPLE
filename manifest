@@ -4,9 +4,9 @@
 JVMLevel=
 LSID=urn:lsid:8080.gpbroad.broadinstitute.org:genepatternmodules:479:0.19
 author=Lizzy Rossin, Heiko Horn
-job.docker.image=genepattern/dapple:v0.19-pre.1
+job.docker.image=genepattern/dapple:v0.19-pre.3
 categories=beta;Proteomics;Statistical Methods
-commandLine=python /code/BuildNetwork_slowTMP.py <Input.File> keyword\=<Keyword> permute\=<Permute.Length> plot\=<Plot> genome\=<genome.build> nearestgene\=<nearest.gene>
+commandLine=python /code/BuildNetwork_slowTMP.py <Input.File> keyword\=<Keyword> permute\=<Permute.Length> plot\=<Plot> genome\=<genome.build> nearestgene\=<nearest.gene> seed\=<Seed>
 cpuType=any
 description=DAPPLE
 fileFormat=
@@ -94,6 +94,20 @@ p6_prefix=
 p6_prefix_when_specified=
 p6_type=java.lang.String
 p6_value=
+p7_MODE=
+p7_TYPE=Integer
+p7_default_value=
+p7_description=For reproducable runs, please specify a seed for randomization [0-1000]
+p7_fileFormat=
+p7_flag=
+p7_name=Seed
+p7_numValues=0..1000
+p7_optional=
+p7_prefix=
+p7_prefix_when_specified=
+p7_range=0..1000
+p7_type=java.lang.Integer
+p7_value=
 privacy=public
 quality=production
 taskDoc=README.pdf
