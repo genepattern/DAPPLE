@@ -13,6 +13,8 @@
         <property name="dest.dir" value="build" />
         <property name="module.dir" location="module" />
         <property name="manifest.file" location="${module.dir}/manifest" />
+        <property name="docker.dir" location="docker" />
+        <property name="docker.file" location="${docker.dir}/Dockerfile" />
     </target>
 
     <!-- add or edit LSID in the manifest file -->
@@ -57,14 +59,14 @@
     <target name="build-image" depends="init"
         description="build the docker image from the ./docker/Dockerfile"
     >
-      <property name="dockerfile" value="docker/Dockerfile" />
-      <available file="${dockerfile}" property="dockerfile.exists" />
-      <fail unless="dockerfile.exists" message="Missing required file: '${dockerfile}' does not exist" />
+      <fail unless="docker.file" message="Missing required property: docker.file" />
+      <available file="${docker.file}" property="dockerfile.exists" />
+      <fail unless="dockerfile.exists" message="Missing required file: '${docker.file}' does not exist" />
 
       <fail unless="job.docker.image" message="Missing required property: job.docker.image" />
 
-      <exec executable="docker" dir="docker" >
-          <arg line="build -f Dockerfile . --tag ${job.docker.image}" />
+      <exec executable="docker" dir="${docker.dir}" >
+          <arg line="build -f ${docker.file} . --tag ${job.docker.image}" />
       </exec>
     </target>
 
