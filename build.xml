@@ -11,11 +11,13 @@
     <target name="init">
         <tstamp />
         <property name="dest.dir" value="build" />
+        <property name="module.dir" location="module" />
+        <property name="manifest.file" location="${module.dir}/manifest" />
     </target>
 
     <!-- add or edit LSID in the manifest file -->
     <target name="set-lsid" depends="init" if:set="LSID">
-        <propertyfile file="manifest">
+        <propertyfile file="${manifest.file}">
             <entry key="LSID" value="${LSID}" />
         </propertyfile>
     </target>
@@ -23,7 +25,7 @@
     <!-- add or edit 'job.docker.image' in the manifest file -->
     <target name="set-docker-image" if:set="job.docker.image"
     >
-        <propertyfile file="manifest">
+        <propertyfile file="${manifest.file}">
             <entry key="job.docker.image" value="${job.docker.image}" />
         </propertyfile>
     </target>
@@ -31,11 +33,11 @@
     <!-- workaround for unnecessary escapes, '\:' -->
     <target name="unescape-manifest" depends="init, unescape-lsid, unescape-docker-image" />
     <target name="unescape-lsid" if:set="LSID">
-        <replaceregexp file="manifest" byline="true" 
+        <replaceregexp file="${manifest.file}" byline="true" 
             match="LSID=.*" replace="LSID=${LSID}" />
     </target>
     <target name="unescape-docker-image" if:set="job.docker.image">
-        <replaceregexp file="manifest" byline="true" 
+        <replaceregexp file="${manifest.file}" byline="true" 
             match="job\.docker\.image=.*" 
             replace="job\.docker\.image=${job.docker.image}" />
     </target>
@@ -77,7 +79,7 @@
     >
         <property name="zip.filename" value="${module.name}_${tag}.zip" />
         <zip destfile="${dest.dir}/${zip.filename}" whenempty="fail" defaultexcludes="true">
-            <fileset dir="." includes="manifest, README.pdf, exampleInput" excludes="docker/**, gpunit/**" />
+            <fileset dir="${module.dir}" />
         </zip>
     </target>
 
