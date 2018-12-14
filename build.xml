@@ -15,6 +15,10 @@
         <property name="manifest.file" location="${module.dir}/manifest" />
         <property name="docker.dir" location="docker" />
         <property name="docker.file" location="${docker.dir}/Dockerfile" />
+        <!-- the location of the gpunit test cases -->
+        <property name="test.dir" location="gpunit" />
+        <!-- output directory for gpunit test report -->
+        <property name="test.report.dir" location="${dest.dir}/reports" />
     </target>
 
     <!-- add or edit LSID in the manifest file -->
@@ -85,4 +89,37 @@
         </zip>
     </target>
 
+    <!--
+      test-local
+        run gpunit tests on a local server
+        
+      prerequisites:
+        GpUnit is installed
+        ${gpunit.dir}/bin is on the path
+        module.zip is built
+        module.zip is installed on the local server
+        workflow:
+          $ ant create-zip-local
+          (from web GUI) Modules - Install from zip 
+          $ ant [-Dtest.name=**/example.yaml] test-local
+          # view the results
+          $ open build/reports/current/html/index.html
+    -->
+    <target name="test-local" depends="init"
+        description="run gpunit tests on a local server"
+    >
+        <property name="gp.user" value="local" />
+        <property name="gp.password" value="local" />
+        <property name="test.target" value="gpunit" />
+        <property name="test.name" value="**/example.yaml" />
+        <exec executable="gpunit" dir="${test.dir}" >
+            <arg value="-Dgp.url=http://127.0.0.1:8080" />
+            <arg value="-Dgp.user=${gp.user}" />
+            <arg value="-Dgp.password=${gp.password}" />
+            <arg value="-Dgpunit.testfolder=${test.dir}" />
+            <arg value="-Dgpunit.includes=${test.name}" />
+            <arg value="-Dreport.dir=${test.report.dir}" />
+            <arg line="${test.target}" />
+        </exec>
+    </target>
 </project>
