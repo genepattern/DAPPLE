@@ -21,7 +21,7 @@ assertions:
     files:
         SNPcheck:
             diff: output/SNPpermute_SNPcheck
-        GeneNamesPermute_CIscores:
+        SNPpermute_CIscores:
             diff: output/SNPpermute_CIscores
-        GeneNamesPermute_summary:
+        SNPpermute_summary:
             diff: output/SNPpermute_summary

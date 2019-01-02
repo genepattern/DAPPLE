@@ -11,7 +11,7 @@ params:
     Input.File: "input/GeneNames_input"
     Permute.Length: "100"
     Plot: "true"
-    nearest.gene: "true"
+    nearest.gene: "false"
     genome.build: "hg18"
     Keyword: "GeneNamesPermute"
     Seed: "123"

@@ -9,7 +9,7 @@ params:
     Input.File: "input/GeneNames_input"
     Permute.Length: "0"
     Plot: "true"
-    nearest.gene: "true"
+    nearest.gene: "false"
     genome.build: "hg18"
     Keyword: "fast"
     Seed: "123"

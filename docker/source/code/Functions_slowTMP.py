@@ -606,7 +606,7 @@ def buildNetRandom(ppifile,dataAnnotFile,seeds,genesnp,CIcutoff,keyword,randomSe
 	ppiannot = open(dataAnnotFile,'r').readlines()
 
 	#mix seed and genesnp
-	shuffledNodes = getNewMapping(ppifile, randomSeed)
+	shuffledNodes = getNewMapping(ppifile, randomSeed) # -> line 767
 #	shuffledNodesReverse = {y:x for x,y in shuffledNodes.iteritems()}
 
 	seedsDict = {}
@@ -768,8 +768,6 @@ def getNewMapping(ppifile, randomSeed):
 	import random
 	import sys
 
-	if not randomSeed == "NA":
-		random.seed(randomSeed)
 #	print >> sys.stderr, ppifileName
 
 #	data = open(ppifileName,'r')
@@ -802,6 +800,8 @@ def getNewMapping(ppifile, randomSeed):
 			i+=1                                                                            #     next degree
 			if i >= len(degreeOptions)-1:                                                   #     stop if we are out og genes
 				break
+		if not randomSeed == "NA":
+			random.seed(randomSeed)
 		tmpshuffle = random.sample(tmpnodes,len(tmpnodes))                                  #   shuffle node labels
 		for j in range(len(tmpnodes)):                                                      #   for all genes in this bin
 			newnodes[int(tmpnodes[j])] = int(tmpshuffle[j])                                           #     assign new labels
