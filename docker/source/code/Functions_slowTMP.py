@@ -769,6 +769,9 @@ def getNewMapping(ppifile, randomSeed):
 	import sys
 
 #	print >> sys.stderr, ppifileName
+	if not randomSeed == "NA":
+		sys.stderr.write("Setting random seed to %s\n" % (randomSeed))
+		random.seed(randomSeed)
 
 #	data = open(ppifileName,'r')
 	degree = {}
@@ -800,9 +803,7 @@ def getNewMapping(ppifile, randomSeed):
 			i+=1                                                                            #     next degree
 			if i >= len(degreeOptions)-1:                                                   #     stop if we are out og genes
 				break
-		if not randomSeed == "NA":
-			random.seed(randomSeed)
 		tmpshuffle = random.sample(tmpnodes,len(tmpnodes))                                  #   shuffle node labels
 		for j in range(len(tmpnodes)):                                                      #   for all genes in this bin
-			newnodes[int(tmpnodes[j])] = int(tmpshuffle[j])                                           #     assign new labels
+			newnodes[int(tmpnodes[j])] = int(tmpshuffle[j])                                 #     assign new labels
 	return newnodes

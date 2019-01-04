@@ -37,6 +37,7 @@ seedRandom = "NA"
 collapseCI = "false"
 plotP = "false"
 genomebuild="19"
+
 if len(sys.argv)>2:
 	for argv in sys.argv[2:]:
 		if argv.split("=")[0] == "specify":
@@ -71,7 +72,6 @@ if len(sys.argv)>2:
 			collapseCI = argv.split("=")[1]
 		elif argv.split("=")[0] == "genome":
 			genomebuild = argv.split("=")[1]
-
 
 ##Change to the specified working directory
 #os.chdir(dir)
