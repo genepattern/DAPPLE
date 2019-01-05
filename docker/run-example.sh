@@ -31,16 +31,16 @@ rm -f ${working_dir}/*
 # 'dapple_script', default: /code/BuildNetwork_slowTMP.py
 #
 # DOCKER
-#: ${dapple_script=/code/BuildNetwork_slowTMP.py}
+: ${dapple_script=/code/BuildNetwork_slowTMP.py}
 # DEBUG
-: ${dapple_script=${dapple_dir}/docker/source/code/BuildNetwork_slowTMP.py}
+#: ${dapple_script=${dapple_dir}/docker/source/code/BuildNetwork_slowTMP.py}
 
 
 #
 # 'input_file', default: ../exampleInput2
 #
-#: ${input_file=${dapple_dir}/gpunit/input/SNP_input}
-: ${input_file=${dapple_dir}/gpunit/input/GeneNames_input}
+: ${input_file=${dapple_dir}/gpunit/input/SNP_input}
+#: ${input_file=${dapple_dir}/gpunit/input/GeneNames_input}
 
 echo "Running dapple command ..."
 echo "  working_dir: ${working_dir}"

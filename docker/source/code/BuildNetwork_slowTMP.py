@@ -65,7 +65,10 @@ if len(sys.argv)>2:
 		elif argv.split("=")[0] == "nearestgene":
 			nearestgene = argv.split("=")[1]
 		elif argv.split("=")[0] == "seed":
-			seedRandom = int(argv.split("=")[1])
+			try:
+				seedRandom = int(argv.split("=")[1])
+			except:
+				sys.stderr.write("""Error parsing Seed, setting Seed to "NA"\n""")
 		elif argv.split("=")[0] == "plotP":
 			plotP = argv.split("=")[1]
 		elif argv.split("=")[0] == "collapseCI":

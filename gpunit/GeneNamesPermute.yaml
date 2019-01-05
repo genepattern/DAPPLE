@@ -9,7 +9,7 @@ module: DAPPLE
 
 params:
     Input.File: "input/GeneNames_input"
-    Permute.Length: "100"
+    Permute.Length: "50"
     Plot: "true"
     nearest.gene: "false"
     genome.build: "hg18"

@@ -770,7 +770,7 @@ def getNewMapping(ppifile, randomSeed):
 
 #	print >> sys.stderr, ppifileName
 	if not randomSeed == "NA":
-		sys.stderr.write("Setting random seed to %s\n" % (randomSeed))
+#		sys.stderr.write("Setting random seed to %s\n" % (randomSeed))
 		random.seed(randomSeed)
 
 #	data = open(ppifileName,'r')

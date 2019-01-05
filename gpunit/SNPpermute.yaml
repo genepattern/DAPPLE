@@ -10,9 +10,9 @@ module: DAPPLE
 
 params:
     Input.File: "input/SNP_input"
-    Permute.Length: "100"
+    Permute.Length: "50"
     Plot: "true"
-    nearest.gene: "true"
+    nearest.gene: "false"
     genome.build: "hg18"
     Keyword: "SNPpermute"
     Seed: "123"
