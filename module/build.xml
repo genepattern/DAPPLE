@@ -92,7 +92,7 @@
     <target name="create-zip" depends="update-manifest"
         description="Build the module.zip file"
     >
-        <property name="zip.filename" value="${module.name}_${tag}.zip" />
+        <property name="zip.filename" value="${ant.project.name}.zip" />
         <zip destfile="${dest.dir}/${zip.filename}" whenempty="fail" defaultexcludes="true">
             <fileset dir="." includes="manifest" />
         </zip>
