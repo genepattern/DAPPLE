@@ -11,9 +11,9 @@
     <target name="init">
         <tstamp />
         <property name="dest.dir" value="build" />
-        <property name="module.dir" location="module" />
-        <property name="manifest.file" location="${module.dir}/manifest" />
-        <property name="docker.dir" location="docker" />
+        <!-- property name="module.dir" location="module" /-->
+        <property name="manifest.file" location="manifest" />
+        <property name="docker.dir" location="../docker" />
         <property name="docker.file" location="${docker.dir}/Dockerfile" />
         <!-- the location of the gpunit test cases -->
         <property name="test.dir" location="gpunit" />
