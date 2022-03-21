@@ -1,6 +1,5 @@
 #Fri, 12 Oct 2018 20:37:28 -0400
 #DAPPLE
-#Fri Jul 06 16:13:35 EDT 2018
 JVMLevel=
 LSID=urn:lsid:8080.gpbroad.broadinstitute.org:genepatternmodules:479:0.19
 author=Lizzy Rossin, Heiko Horn
@@ -8,7 +7,7 @@ job.docker.image=genepattern/dapple:v0.19-pre.3
 categories=beta;Proteomics;Statistical Methods
 commandLine=python /code/BuildNetwork_slowTMP.py <Input.File> keyword\=<Keyword> permute\=<Permute.Length> plot\=<Plot> genome\=<genome.build> nearestgene\=<nearest.gene>
 cpuType=any
-description=DAPPLE
+description=DAPPLE (Disease Association Protein-Protein Link Evaluator) looks for significant physical connectivity among proteins encoded for by genes in loci associated to disease according to protein-protein interactions reported in the literature.
 fileFormat=
 job.error_status.exit_value=true
 job.error_status.stderr=false

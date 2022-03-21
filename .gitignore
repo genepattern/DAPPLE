@@ -3,3 +3,6 @@ build/
 
 # ignore MacOSX system files
 .DS_Store
+
+#PyCharm files
+.idea/
