@@ -89,6 +89,15 @@
         </zip>
     </target>
 
+    <target name="create-zip" depends="update-manifest"
+        description="Build the module.zip file"
+    >
+        <property name="zip.filename" value="${module.name}_${tag}.zip" />
+        <zip destfile="${dest.dir}/${zip.filename}" whenempty="fail" defaultexcludes="true">
+            <fileset dir="${module.dir}" />
+        </zip>
+    </target>
+
     <!--
       test-local
         run gpunit tests on a local server
