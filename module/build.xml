@@ -95,7 +95,6 @@
         <property name="zip.filename" value="${module.name}_${tag}.zip" />
         <zip destfile="${dest.dir}/${zip.filename}" whenempty="fail" defaultexcludes="true">
             <fileset dir="." includes="manifest" />
-            <fileset dir="${docker.dir}" includes="Dockerfile" />
         </zip>
     </target>
 
