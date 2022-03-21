@@ -12,7 +12,7 @@
         <tstamp />
         <property name="dest.dir" value="build" />
         <property name="module.dir" location="module" />
-        <property name="manifest.file" location="manifest" />
+        <property name="manifest.file" location="${module.dir}/manifest" />
         <property name="docker.dir" location="docker" />
         <property name="docker.file" location="${docker.dir}/Dockerfile" />
         <!-- the location of the gpunit test cases -->
@@ -95,7 +95,7 @@
         <property name="zip.filename" value="${module.name}_${tag}.zip" />
         <zip destfile="${dest.dir}/${zip.filename}" whenempty="fail" defaultexcludes="true">
             <fileset dir="." includes="manifest" />
-            <fileset dir="../${docker.dir}" includes="Dockerfile" />
+            <fileset dir="${docker.dir}" includes="Dockerfile" />
         </zip>
     </target>
 
