@@ -18,7 +18,8 @@ params:
 
 assertions:
     files:
-        GeneNamesPermute_CIscores:
-            diff: output/GeneNamesPermute_CIscores
+        GeneNamesPermute_CIscores: !!null
         GeneNamesPermute_summary:
             diff: output/GeneNamesPermute_summary
+        stdout.txt:
+            diff: output/GeneNamesPermute_stdout.txt

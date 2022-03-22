@@ -21,7 +21,8 @@ assertions:
     files:
         SNPcheck:
             diff: output/SNPpermute_SNPcheck
-        SNPpermute_CIscores:
-            diff: output/SNPpermute_CIscores
+        SNPpermute_CIscores: !!null
         SNPpermute_summary:
             diff: output/SNPpermute_summary
+        stdout.txt:
+            diff: SNPpermute_stdout.txt
