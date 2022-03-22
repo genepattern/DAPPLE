@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="create-zip-local" name="DAPPLE"
+    xmlns:if="ant:if"
+    xmlns:unless="ant:unless"
+>
+    <property file="build.properties" />
+
+    <!-- example, load the manifest file into manifest.* properties -->
+    <!-- property file="manifest" prefix="manifest" / -->
+
+    <target name="init">
+        <tstamp />
+        <property name="dest.dir" value="build" />
+        <!-- property name="module.dir" location="module" /-->
+        <property name="manifest.file" location="manifest" />
+        <property name="docker.dir" location="../docker" />
+        <property name="docker.file" location="${docker.dir}/Dockerfile" />
+        <!-- the location of the gpunit test cases -->
+        <property name="test.dir" location="gpunit" />
+        <!-- output directory for gpunit test report -->
+        <property name="test.report.dir" location="${dest.dir}/reports" />
+    </target>
+
+    <!-- add or edit LSID in the manifest file -->
+    <target name="set-lsid" depends="init" if:set="LSID">
+        <propertyfile file="${manifest.file}">
+            <entry key="LSID" value="${LSID}" />
+        </propertyfile>
+    </target>
+    
+    <!-- add or edit 'job.docker.image' in the manifest file -->
+    <target name="set-docker-image" if:set="job.docker.image"
+    >
+        <propertyfile file="${manifest.file}">
+            <entry key="job.docker.image" value="${job.docker.image}" />
+        </propertyfile>
+    </target>
+
+    <!-- workaround for unnecessary escapes, '\:' -->
+    <target name="unescape-manifest" depends="init, unescape-lsid, unescape-docker-image" />
+    <target name="unescape-lsid" if:set="LSID">
+        <replaceregexp file="${manifest.file}" byline="true" 
+            match="LSID=.*" replace="LSID=${LSID}" />
+    </target>
+    <target name="unescape-docker-image" if:set="job.docker.image">
+        <replaceregexp file="${manifest.file}" byline="true" 
+            match="job\.docker\.image=.*" 
+            replace="job\.docker\.image=${job.docker.image}" />
+    </target>
+
+    <target name="update-manifest" depends="init, set-lsid, set-docker-image, unescape-manifest"
+        description="update the manifest file with values from 'build.properties'"
+    />
+
+    <!--
+      Build the local docker image
+      --><?code
+      Examples:
+        docker build -f Dockerfile . --tag dapple
+        docker build -f Dockerfile . --tag dapple:v0.19
+        docker build -f Dockerfile . --tag genepattern/dapple:v0.19
+      ?>
+    <target name="build-image" depends="init"
+        description="build the docker image from the ./docker/Dockerfile"
+    >
+      <fail unless="docker.file" message="Missing required property: docker.file" />
+      <available file="${docker.file}" property="dockerfile.exists" />
+      <fail unless="dockerfile.exists" message="Missing required file: '${docker.file}' does not exist" />
+
+      <fail unless="job.docker.image" message="Missing required property: job.docker.image" />
+
+      <exec executable="docker" dir="${docker.dir}" >
+          <arg line="build -f ${docker.file} . --tag ${job.docker.image}" />
+      </exec>
+    </target>
+
+    <!-- 
+      Build the module zip file.
+      
+      Note: edit the 'zip' task as needed to include/exclude all files which 
+        belong in the zip file that is added to the GenePattern Module repository.
+    -->
+    <target name="create-zip-local" depends="update-manifest"
+        description="Build the module.zip file"
+    >
+        <property name="zip.filename" value="${module.name}_${tag}.zip" />
+        <zip destfile="${dest.dir}/${zip.filename}" whenempty="fail" defaultexcludes="true">
+            <fileset dir="${module.dir}" />
+        </zip>
+    </target>
+
+    <target name="create-zip" depends="update-manifest"
+        description="Build the module.zip file"
+    >
+        <property name="zip.filename" value="${ant.project.name}.zip" />
+        <zip destfile="${dest.dir}/${zip.filename}" whenempty="fail" defaultexcludes="true">
+            <fileset dir="." includes="manifest" />
+        </zip>
+    </target>
+
+    <!--
+      test-local
+        run gpunit tests on a local server
+        
+      prerequisites:
+        GpUnit is installed
+        ${gpunit.dir}/bin is on the path
+        module.zip is built
+        module.zip is installed on the local server
+        workflow:
+          $ ant create-zip-local
+          (from web GUI) Modules - Install from zip 
+          $ ant [-Dtest.name=**/example.yaml] test-local
+          # view the results
+          $ open build/reports/current/html/index.html
+    -->
+    <target name="test-local" depends="init"
+        description="run gpunit tests on a local server"
+    >
+        <property name="gp.user" value="local" />
+        <property name="gp.password" value="local" />
+        <property name="test.target" value="gpunit" />
+        <property name="test.name" value="**/example.yaml" />
+        <exec executable="gpunit" dir="${test.dir}" >
+            <arg value="-Dgp.url=http://127.0.0.1:8080" />
+            <arg value="-Dgp.user=${gp.user}" />
+            <arg value="-Dgp.password=${gp.password}" />
+            <arg value="-Dgpunit.testfolder=${test.dir}" />
+            <arg value="-Dgpunit.includes=${test.name}" />
+            <arg value="-Dreport.dir=${test.report.dir}" />
+            <arg line="${test.target}" />
+        </exec>
+    </target>
+</project>

@@ -1,0 +1,25 @@
+# GeneNamesPermute:
+# Uses gene names as input, permutes network to calculate p values.
+# Checks:
+#   a) DAPPLE can load a network
+#   b) generate simple output
+#   c) permutation works
+
+module: DAPPLE
+
+params:
+    Input.File: "input/GeneNames_input"
+    Permute.Length: "50"
+    Plot: "true"
+    nearest.gene: "false"
+    genome.build: "hg18"
+    Keyword: "GeneNamesPermute"
+    Seed: "123"
+
+assertions:
+    files:
+        GeneNamesPermute_CIscores: !!null
+        GeneNamesPermute_summary:
+            diff: output/GeneNamesPermute_summary
+        stdout.txt:
+            diff: output/GeneNamesPermute_stdout.txt

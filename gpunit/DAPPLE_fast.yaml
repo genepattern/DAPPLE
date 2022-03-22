@@ -1,0 +1,20 @@
+# Am I alive ?
+# Checks:
+#   a) DAPPLE can load a network
+#   b) generate simple output
+
+module: DAPPLE
+
+params:
+    Input.File: "input/GeneNames_input"
+    Permute.Length: "0"
+    Plot: "true"
+    nearest.gene: "false"
+    genome.build: "hg18"
+    Keyword: "fast"
+    Seed: "123"
+
+assertions:
+    files:
+        fast_summary:
+            diff: output/fast_summary

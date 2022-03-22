@@ -1,0 +1,28 @@
+# GeneNamesPermute:
+# Uses SNPs as input, permutes network to calculate p values.
+# Checks:
+#   a) SNPs can be mapped to regions/genes
+#   b) DAPPLE can load a network
+#   c) generate simple output
+#   d) permutation works
+
+module: DAPPLE
+
+params:
+    Input.File: "input/SNP_input"
+    Permute.Length: "50"
+    Plot: "true"
+    nearest.gene: "false"
+    genome.build: "hg18"
+    Keyword: "SNPpermute"
+    Seed: "123"
+
+assertions:
+    files:
+        SNPcheck:
+            diff: output/SNPpermute_SNPcheck
+        SNPpermute_CIscores: !!null
+        SNPpermute_summary:
+            diff: output/SNPpermute_summary
+        stdout.txt:
+            diff: output/SNPpermute_stdout.txt
