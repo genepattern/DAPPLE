@@ -25,4 +25,4 @@ assertions:
         SNPpermute_summary:
             diff: output/SNPpermute_summary
         stdout.txt:
-            diff: SNPpermute_stdout.txt
+            diff: output/SNPpermute_stdout.txt
