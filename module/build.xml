@@ -94,7 +94,7 @@
     >
         <property name="zip.filename" value="${ant.project.name}.zip" />
         <zip destfile="${dest.dir}/${zip.filename}" whenempty="fail" defaultexcludes="true">
-            <fileset dir="." includes="manifest" />
+            <fileset dir="." includes="manifest, *.pdf" />
         </zip>
     </target>
 
